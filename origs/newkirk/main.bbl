@@ -1,0 +1,608 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Anagnostopoulou2016}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=534289b5837088be64dc62d120a0934a}{%
+           family={Anagnostopoulou},
+           familyi={A\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Universität Kostanz}%
+      }
+      \strng{namehash}{534289b5837088be64dc62d120a0934a}
+      \strng{fullhash}{534289b5837088be64dc62d120a0934a}
+      \strng{bibnamehash}{534289b5837088be64dc62d120a0934a}
+      \strng{authorbibnamehash}{534289b5837088be64dc62d120a0934a}
+      \strng{authornamehash}{534289b5837088be64dc62d120a0934a}
+      \strng{authorfullhash}{534289b5837088be64dc62d120a0934a}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the {{VII Nereus International Workshop}}: ``{{Clitic}} Doubling and Other Issues of the Syntax/Semantic Interface in {{Romance DPs}}"}
+      \field{title}{Clitic {{Doubling}} and {{Object Agreement}}}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{11\bibrangedash 42}
+      \range{pages}{32}
+    \endentry
+    \entry{Anagnostopoulou2017}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=534289b5837088be64dc62d120a0934a}{%
+           family={Anagnostopoulou},
+           familyi={A\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{534289b5837088be64dc62d120a0934a}
+      \strng{fullhash}{534289b5837088be64dc62d120a0934a}
+      \strng{bibnamehash}{534289b5837088be64dc62d120a0934a}
+      \strng{authorbibnamehash}{534289b5837088be64dc62d120a0934a}
+      \strng{authornamehash}{534289b5837088be64dc62d120a0934a}
+      \strng{authorfullhash}{534289b5837088be64dc62d120a0934a}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Wiley Blackwell Companion to Syntax, Second Edition}
+      \field{title}{Clitic Doubling}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 56}
+      \range{pages}{56}
+      \verb{file}
+      \verb /home/lydia/Zotero/storage/27NMGJ76/Anagnostopoulou - 2017 - Clitic doubling.pdf;/home/lydia/Zotero/storage/ZQJA4GS6/9781118358733.html
+      \endverb
+    \endentry
+    \entry{BakerKramer2016}{unpublished}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=518bbbf727013447ef39fcdf8cc2d25b}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=301695a763cac17b8413bdc962d50fe5}{%
+           family={Kramer},
+           familyi={K\bibinitperiod},
+           given={Ruth},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0ea1beb459410b84b6c23fa8240ff482}
+      \strng{fullhash}{0ea1beb459410b84b6c23fa8240ff482}
+      \strng{bibnamehash}{0ea1beb459410b84b6c23fa8240ff482}
+      \strng{authorbibnamehash}{0ea1beb459410b84b6c23fa8240ff482}
+      \strng{authornamehash}{0ea1beb459410b84b6c23fa8240ff482}
+      \strng{authorfullhash}{0ea1beb459410b84b6c23fa8240ff482}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Unpublished Ms.}
+      \field{pagetotal}{46}
+      \field{title}{Doubling {{Clitics}} Are {{Pronouns}}: {{Reduce}} and {{Interpret}}}
+      \field{type}{Unpublished Ms.}
+      \field{year}{2016}
+      \field{dateera}{ce}
+    \endentry
+    \entry{BraniganMacKenzie2002}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6cedef580cfe88866af621cfcd6dc571}{%
+           family={Branigan},
+           familyi={B\bibinitperiod},
+           given={Phil},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=27aacef7cdca90cd25d628fa271e884c}{%
+           family={MacKenzie},
+           familyi={M\bibinitperiod},
+           given={Marguerite},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{44f39efda0aabf3e03e742ce148fec6a}
+      \strng{fullhash}{44f39efda0aabf3e03e742ce148fec6a}
+      \strng{bibnamehash}{44f39efda0aabf3e03e742ce148fec6a}
+      \strng{authorbibnamehash}{44f39efda0aabf3e03e742ce148fec6a}
+      \strng{authornamehash}{44f39efda0aabf3e03e742ce148fec6a}
+      \strng{authorfullhash}{44f39efda0aabf3e03e742ce148fec6a}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Linguistic Inquiry}
+      \field{number}{3}
+      \field{title}{Altruism, {{Ā}}-Movement, and Object Agreement in {{Innu}}-Aimûn}
+      \field{urlday}{14}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{volume}{33}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{385\bibrangedash 407}
+      \range{pages}{23}
+      \verb{file}
+      \verb /home/lydia/Zotero/storage/HMQ2J274/Branigan and MacKenzie 2002 Altruism.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.mitpressjournals.org/doi/abs/10.1162/002438902760168545
+      \endverb
+      \verb{url}
+      \verb http://www.mitpressjournals.org/doi/abs/10.1162/002438902760168545
+      \endverb
+    \endentry
+    \entry{Bruening2001}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ea54546329d3edf6a007cf60e4ec51cf}{%
+           family={Bruening},
+           familyi={B\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ea54546329d3edf6a007cf60e4ec51cf}
+      \strng{fullhash}{ea54546329d3edf6a007cf60e4ec51cf}
+      \strng{bibnamehash}{ea54546329d3edf6a007cf60e4ec51cf}
+      \strng{authorbibnamehash}{ea54546329d3edf6a007cf60e4ec51cf}
+      \strng{authornamehash}{ea54546329d3edf6a007cf60e4ec51cf}
+      \strng{authorfullhash}{ea54546329d3edf6a007cf60e4ec51cf}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ms., University of Delaware}
+      \field{title}{Raising to Object and Proper Movement}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/lydia/Zotero/storage/K9U84XVK/Bruening 2001 RtO and Proper Movement.pdf
+      \endverb
+    \endentry
+    \entry{DiercksSikuku2015}{unpublished}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=589506a246175b1f8236cf81189090c2}{%
+           family={Diercks},
+           familyi={D\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=1,uniquepart=given,hash=3a84cdfbc4ad8d31778e936049197c0a}{%
+           family={Sikuku},
+           familyi={S\bibinitperiod},
+           given={Justine},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{location}{1}{%
+        {Pomona College and Moi University}%
+      }
+      \strng{namehash}{cf820cba051052f9d5d0669adace3189}
+      \strng{fullhash}{cf820cba051052f9d5d0669adace3189}
+      \strng{bibnamehash}{cf820cba051052f9d5d0669adace3189}
+      \strng{authorbibnamehash}{cf820cba051052f9d5d0669adace3189}
+      \strng{authornamehash}{cf820cba051052f9d5d0669adace3189}
+      \strng{authorfullhash}{cf820cba051052f9d5d0669adace3189}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{pagetotal}{53}
+      \field{title}{Pragmatic {{Effects}} of {{Clitic Doubling}}: {{Two Kinds}} of {{Object Markers}} in {{Lubukusu}}}
+      \field{year}{2015}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Matushansky2006}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=db15bb3093ff90f35b6952eefee5787d}{%
+           family={Matushansky},
+           familyi={M\bibinitperiod},
+           given={Ora},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{db15bb3093ff90f35b6952eefee5787d}
+      \strng{fullhash}{db15bb3093ff90f35b6952eefee5787d}
+      \strng{bibnamehash}{db15bb3093ff90f35b6952eefee5787d}
+      \strng{authorbibnamehash}{db15bb3093ff90f35b6952eefee5787d}
+      \strng{authornamehash}{db15bb3093ff90f35b6952eefee5787d}
+      \strng{authorfullhash}{db15bb3093ff90f35b6952eefee5787d}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Linguistic inquiry}
+      \field{number}{1}
+      \field{title}{Head Movement in Linguistic Theory}
+      \field{volume}{37}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{69\bibrangedash 109}
+      \range{pages}{41}
+      \verb{file}
+      \verb /home/lydia/Zotero/storage/ZAV8P9CQ/Matushansky 2006 head movement.pdf
+      \endverb
+    \endentry
+    \entry{PolinskyPotsdam2001}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=bea15fef47d19f0e17066d868d61280a}{%
+           family={Polinsky},
+           familyi={P\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=25f0551c42b9dbfaf918ccfa27d7f814}{%
+           family={Potsdam},
+           familyi={P\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da3fec5a6b15735962f5c18492456ffa}
+      \strng{fullhash}{da3fec5a6b15735962f5c18492456ffa}
+      \strng{bibnamehash}{da3fec5a6b15735962f5c18492456ffa}
+      \strng{authorbibnamehash}{da3fec5a6b15735962f5c18492456ffa}
+      \strng{authornamehash}{da3fec5a6b15735962f5c18492456ffa}
+      \strng{authorfullhash}{da3fec5a6b15735962f5c18492456ffa}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Natural Language \& Linguistic Theory}
+      \field{number}{3}
+      \field{title}{Long-Distance Agreement and Topic in {{Tsez}}}
+      \field{urlday}{14}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{volume}{19}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{583\bibrangedash 646}
+      \range{pages}{64}
+      \verb{file}
+      \verb /home/lydia/Zotero/storage/VTB6P5B6/Polinsky and Potsdam 2001 Long-distance Agreement Tsez.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/article/10.1023/A:1010757806504
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/article/10.1023/A:1010757806504
+      \endverb
+    \endentry
+    \entry{SafirSikuku2011}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=0e18da0469e911b65b429a6c64ce7681}{%
+           family={Safir},
+           familyi={S\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=1,uniquepart=given,hash=3a84cdfbc4ad8d31778e936049197c0a}{%
+           family={Sikuku},
+           familyi={S\bibinitperiod},
+           given={Justine},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=0e18da0469e911b65b429a6c64ce7681}{%
+           family={Safir},
+           familyi={S\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f41e4f11bac052f2a1fefd5bf360c6a}
+      \strng{fullhash}{5f41e4f11bac052f2a1fefd5bf360c6a}
+      \strng{bibnamehash}{5f41e4f11bac052f2a1fefd5bf360c6a}
+      \strng{authorbibnamehash}{5f41e4f11bac052f2a1fefd5bf360c6a}
+      \strng{authornamehash}{5f41e4f11bac052f2a1fefd5bf360c6a}
+      \strng{authorfullhash}{5f41e4f11bac052f2a1fefd5bf360c6a}
+      \strng{editorbibnamehash}{0e18da0469e911b65b429a6c64ce7681}
+      \strng{editornamehash}{0e18da0469e911b65b429a6c64ce7681}
+      \strng{editorfullhash}{0e18da0469e911b65b429a6c64ce7681}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Afranaph {{Website}}, {{http://www.africananaphora.rutgers.edu/}}}
+      \field{title}{Lubukusu {{Anaphora Sketch}} Version 3.1}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://www.africananaphora.rutgers.edu/
+      \endverb
+      \verb{url}
+      \verb http://www.africananaphora.rutgers.edu/
+      \endverb
+    \endentry
+    \entry{Salzmann2006}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c9d907d4fcadea28a2484ae5335cbdbd}{%
+           family={Salzmann},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {LOT}%
+      }
+      \list{location}{1}{%
+        {Utrecht}%
+      }
+      \strng{namehash}{c9d907d4fcadea28a2484ae5335cbdbd}
+      \strng{fullhash}{c9d907d4fcadea28a2484ae5335cbdbd}
+      \strng{bibnamehash}{c9d907d4fcadea28a2484ae5335cbdbd}
+      \strng{authorbibnamehash}{c9d907d4fcadea28a2484ae5335cbdbd}
+      \strng{authornamehash}{c9d907d4fcadea28a2484ae5335cbdbd}
+      \strng{authorfullhash}{c9d907d4fcadea28a2484ae5335cbdbd}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{langid}{english}
+      \field{note}{OCLC: 84611597}
+      \field{shorttitle}{Resumptive Prolepsis}
+      \field{title}{Resumptive Prolepsis: A Study in Indirect {{A}}'-Dependencies.}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/lydia/Zotero/storage/FIE97C47/Salzmann Prolepsis Thesis.pdf
+      \endverb
+    \endentry
+    \entry{Salzmann2017}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c9d907d4fcadea28a2484ae5335cbdbd}{%
+           family={Salzmann},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c9d907d4fcadea28a2484ae5335cbdbd}
+      \strng{fullhash}{c9d907d4fcadea28a2484ae5335cbdbd}
+      \strng{bibnamehash}{c9d907d4fcadea28a2484ae5335cbdbd}
+      \strng{authorbibnamehash}{c9d907d4fcadea28a2484ae5335cbdbd}
+      \strng{authornamehash}{c9d907d4fcadea28a2484ae5335cbdbd}
+      \strng{authorfullhash}{c9d907d4fcadea28a2484ae5335cbdbd}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Wiley Blackwell Companion to Syntax, Second Edition}
+      \field{title}{Prolepsis}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 42}
+      \range{pages}{42}
+      \verb{file}
+      \verb /home/lydia/Zotero/storage/DH4NZYXC/9781118358733.html
+      \endverb
+    \endentry
+    \entry{SikukuDiercksMarlo2018}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=1,uniquepart=given,hash=528116265075496a30cf8be0565c0170}{%
+           family={Sikuku},
+           familyi={S\bibinitperiod},
+           given={Justine\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=589506a246175b1f8236cf81189090c2}{%
+           family={Diercks},
+           familyi={D\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a1c5fd5fbc453bd06eb62c0620d870d4}{%
+           family={Marlo},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4fe002aa58bb68420e4229ca1b985b80}
+      \strng{fullhash}{4fe002aa58bb68420e4229ca1b985b80}
+      \strng{bibnamehash}{4fe002aa58bb68420e4229ca1b985b80}
+      \strng{authorbibnamehash}{4fe002aa58bb68420e4229ca1b985b80}
+      \strng{authornamehash}{4fe002aa58bb68420e4229ca1b985b80}
+      \strng{authorfullhash}{4fe002aa58bb68420e4229ca1b985b80}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Linguistic Variation}
+      \field{number}{2}
+      \field{title}{Pragmatic Effects of Clitic Doubling}
+      \field{volume}{18}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{359\bibrangedash 429}
+      \range{pages}{71}
+      \verb{file}
+      \verb /home/lydia/Zotero/storage/K39REABS/Sikuku et al. - 2018 - Pragmatic effects of clitic doubling.pdf;/home/lydia/Zotero/storage/QLEDBXTM/lv.00027.html
+      \endverb
+    \endentry
+    \entry{SpeasTenny2003}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=78b5481302863e5eda678a028de958f4}{%
+           family={Speas},
+           familyi={S\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4c18a6b51f2e55c94994f9a8522a8cce}{%
+           family={Tenny},
+           familyi={T\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=7295dbcce7bc6151d86caeec944fadc6}{%
+           family={Di\bibnamedelima Sciullo},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={A.-M.},
+           giveni={A\bibinithyphendelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \list{publisher}{1}{%
+        {John Benjamins}%
+      }
+      \strng{namehash}{3e7b7f8c4d8e48a309435d12a914bb03}
+      \strng{fullhash}{3e7b7f8c4d8e48a309435d12a914bb03}
+      \strng{bibnamehash}{3e7b7f8c4d8e48a309435d12a914bb03}
+      \strng{authorbibnamehash}{3e7b7f8c4d8e48a309435d12a914bb03}
+      \strng{authornamehash}{3e7b7f8c4d8e48a309435d12a914bb03}
+      \strng{authorfullhash}{3e7b7f8c4d8e48a309435d12a914bb03}
+      \strng{editorbibnamehash}{7295dbcce7bc6151d86caeec944fadc6}
+      \strng{editornamehash}{7295dbcce7bc6151d86caeec944fadc6}
+      \strng{editorfullhash}{7295dbcce7bc6151d86caeec944fadc6}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Asymmetry in {{Grammar}}}
+      \field{title}{Configurational Properties and Point of View Roles}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{pages}{315\bibrangedash 344}
+      \range{pages}{30}
+    \endentry
+    \entry{vanKoppenSeurendeVries2016}{unpublished}{useprefix=true}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=9c865c2438ce647ba6a7e55aa1f14dbe}{%
+           family={Koppen},
+           familyi={K\bibinitperiod},
+           given={Marjo},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{uniquename=0,uniquepart=base,hash=1d3449fac3d6bbb1371ddd7f7e43618c}{%
+           family={Seuren},
+           familyi={S\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=858d6c0f204fd9d883a7a8a0b942ad7d}{%
+           family={Vries},
+           familyi={V\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{9523443b69bedb2ea40a246b4018f6ea}
+      \strng{fullhash}{9523443b69bedb2ea40a246b4018f6ea}
+      \strng{bibnamehash}{9523443b69bedb2ea40a246b4018f6ea}
+      \strng{authorbibnamehash}{9523443b69bedb2ea40a246b4018f6ea}
+      \strng{authornamehash}{9523443b69bedb2ea40a246b4018f6ea}
+      \strng{authorfullhash}{9523443b69bedb2ea40a246b4018f6ea}
+      \field{sortinit}{v}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{ms.}
+      \field{pagetotal}{31}
+      \field{title}{The {{Proleptic Accusative}} as an Exceptional {{Exceptional Case Marking}} Construction}
+      \field{type}{ms.}
+      \field{year}{2016}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Wasike2006}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=78b151de20dfe165ea6b387653a9b7f0}{%
+           family={Wasike},
+           familyi={W\bibinitperiod},
+           given={Aggrey},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Cornell University}%
+      }
+      \list{location}{1}{%
+        {Ithaca, New York}%
+      }
+      \strng{namehash}{78b151de20dfe165ea6b387653a9b7f0}
+      \strng{fullhash}{78b151de20dfe165ea6b387653a9b7f0}
+      \strng{bibnamehash}{78b151de20dfe165ea6b387653a9b7f0}
+      \strng{authorbibnamehash}{78b151de20dfe165ea6b387653a9b7f0}
+      \strng{authornamehash}{78b151de20dfe165ea6b387653a9b7f0}
+      \strng{authorfullhash}{78b151de20dfe165ea6b387653a9b7f0}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{pagetotal}{393}
+      \field{title}{The {{Left Periphery}}, {{Wh}}-in-Situ and {{A}}-Bar {{Movement}} in {{Lubukusu}} and {{Other Bantu Languages}}}
+      \field{type}{Ph.D.}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/lydia/Zotero/storage/FBTMFT5Z/wasike dissertation.pdf
+      \endverb
+      \keyw{Syntax,Bantu,Lubukusu}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
