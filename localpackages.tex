@@ -12,6 +12,14 @@
 \usepackage{multicol}
 \usepackage{stmaryrd} %double brackets
 
+\makeatletter
+\let\pgfmathModX=\pgfmathMod@
+\usepackage{pgfplots,pgfplotstable}%
+\let\pgfmathMod@=\pgfmathModX
+\makeatother
+\usepgfplotslibrary{colorbrewer}
+\usetikzlibrary{fit}
+
 % \newcommand{\baru}{\textbaru}
 % \newcommand{\baruH}{\textipa{\'\textbaru}}
 % \newcommand{\baruL}{\textipa{\`\textbaru}}

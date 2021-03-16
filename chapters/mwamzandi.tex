@@ -158,6 +158,47 @@ If the variation of the \textit{amba} and tensed RCs is due to the restrictive a
     \label{fig:mwamzandi:1}
 \end{figure}
 
+\todo[inline]{Please provide the exact numbers so the image can be replaced with the Ti\textit{k}Z plot. Then change the label of the pgfplot from fig:mwamzandi:2 to fig:mwamzandi:1}
+
+\begin{figure}
+\pgfplotstableread{
+1 30    120
+2 245   40
+}\dataset
+\begin{tikzpicture}
+\begin{axis}[ybar,
+        width=.8\textwidth,
+        height=.3\textheight,
+        ymin=0,
+        ymax=300,
+        ylabel={},
+        %xlabel={Restrictive/Non-restrictive clauses},
+        xlabel style = {yshift=-8mm},
+        xtick=data,
+        bar width=1cm,
+        enlarge x limits=1.2,
+        nodes near coords,
+        nodes near coords style={font=\footnotesize},
+        legend cell align=left,
+        legend style={font=\footnotesize},
+        xticklabels = {
+            amba,
+            tensed
+        },
+      axis y line*=left,
+      axis x line*=bottom,
+        x tick label style={align=center,text width=2cm},
+        ticklabel style = {font=\footnotesize},
+        ]
+\addplot[draw=black,fill=lsMidDarkBlue] table[x index=0,y index=1] \dataset; 
+\addplot[draw=black,fill=lsNightBlue] table[x index=0,y index=2] \dataset; 
+\legend{Restrictive,Non-restrictive}
+\end{axis}
+\end{tikzpicture}
+    \caption{amba and tensed restrictive and non-restrictive clauses}
+    \label{fig:mwamzandi:2} %!!!!
+\end{figure}
+
 A Chi-squared test shows that the frequency differences between the restrictive and non-restrictive clauses for the \textit{amba} and tensed RCs is significant X2 (1, N=440) = 180.89, p < .001. The implication is that the tensed RC is used more frequently as restrictive while the \textit{amba} RC is used more frequently as non-restrictive. I present an example of a tensed restrictive RC in \REF{ex:mwamzandi:14}.
 
 \ea%14
@@ -246,10 +287,12 @@ The RCs in (\ref{ex:mwamzandi:19a}-b) are shorter than the RCs in (\ref{ex:mwamz
 \tabref{tab:mwamzandi:1} presents the mean and standard deviation (in parenthesis) of the length of the \textit{amba} RCs and tensed RCs (restrictive and non-restrictive).
 
 \begin{table}
-    \begin{tabularx}{\textwidth}{XXX} & Restrictive & Non-restrictive\\
+    \begin{tabularx}{.55\textwidth}{Xrrrr} 
     \lsptoprule
-    \textit{amba} & 6.34 (3.25) & 7.21 (3.71)\\
-    tensed & 3.09 (2.34) & 4.25 (2.61)\\
+    & \multicolumn{2}{l}{Restrictive} & \multicolumn{2}{l}{Non-restrictive}\\
+    \midrule
+    \textit{amba} & 6.34 & (3.25) & 7.21 & (3.71)\\
+    tensed & 3.09 & (2.34) & 4.25 & (2.61)\\
     \lspbottomrule
     \end{tabularx}
     \caption{Mean and sd of RC length in restrictive and non-restrictive clauses}
@@ -329,16 +372,20 @@ In \REF{ex:mwamzandi:26}, the head noun \textit{amri} is the object of the matri
 \tabref{tab:mwamzandi:2} shows the results of the effect of grammatical role and topic on the frequencies of \textit{amba} and tensed restrictive/non-restrictive RCs. Row one, for example, shows the frequencies of the \textit{amba} RCs and tensed RCs (restrictive and non-restrictive) when the head noun (HN) is the subject (topic) of the matrix clause and is also the topic of the RC in question.
 
 \begin{table}
-    \begin{tabularx}{\textwidth}{XXXXXX}
-        & amba restrictive & amba non-restrictive & Tensed restrictive & Tensed non-restrictive & Total\\
-        \lsptoprule
+    \begin{tabularx}{\textwidth}{Xrrrrr}
+    \lsptoprule
+        & amba & amba & Tensed  & Tensed & Total\\
+        & restrictive & non-restrictive & restrictive & non-restrictive & \\
+        \midrule
         \textbf{HN=Subj,} \textbf{topic} & 7 & 21 & 62 & 8 & 98\\
         \textbf{HN=Subj,} \textbf{non-topic} & 1 & 0 & 4 & 1 & 6\\
+        \midrule %\addlinespace[2ex]
         \textbf{HN=Obj,} \textbf{topic} & 10 & 55 & 21 & 15 & 101\\
         \textbf{HN=Obj,} \textbf{non-topic} & 3 & 24 & 94 & 5 & 126\\
+        \midrule %\addlinespace[2ex]
         \textbf{HN=PP,} \textbf{topic} & 5 & 18 & 9 & 9 & 41\\
         \textbf{HN=PP,} \textbf{non-topic} & 6 & 5 & 55 & 2 & 68\\
-        \lspbottomrule
+    \lspbottomrule
     \end{tabularx}
     \caption{Effect of grammatical role and topic on Swahili RC variation}
     \label{tab:mwamzandi:2}
