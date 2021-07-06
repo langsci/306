@@ -1,39 +1,25 @@
-\documentclass[output=paper,
-modfonts
-]{langscibook} 
+\documentclass[output=paper,colorlinks,citecolor=brown]{langscibook}
 
-
-
-%\usepackage{tikz-qtree}
-\IfFileExists{../localcommands.tex}{
-	\addbibresource{../localbibliography.bib}
-	\input{../localpackages}
-	\input{../localcommands} 
-	\input{../localhyphenation} 
-	\togglepaper[1]%%chapternumber
-}{}
-
-\title{Tense and Aspect in Akan Serial Verb Constructions}  
+\title{Tense and aspect in Akan serial verb constructions}  
 
 \author{%
  Augustina Owusu\affiliation{Rutgers University} 
 }
 
-% \chapterDOI{} %will be filled in at production
-% \epigram{}
+\abstract{In Akan, tense and aspect in serial verb constructions have different distributions. Tense is repeated on all the verbs; aspect only appears on the first verb, the following verbs have the \emph{\`a} marker. In this paper, I argue that this difference in distribution is a consequence of being evaluated by different syntactic mechanisms. Evaluation of unvalued features is licensed by two syntactic mechanisms, \textbf{Agree} and \textbf{Selection}/\textbf{Sel(ect)-Merge}. In Akan, tense is evaluated by Agree and aspect by Selection. The -\emph{\`a} morpheme that appears on the non-initial verbs in these clauses is the phonological realization of the morphosyntactic feature bundles [-prog,-fut]. Tense morphology depicts T-v Agree. The same tense inflection on all the verbs appears on verbs because one T-head parallel-Agrees with all of them. Since a single T-head cannot have different interpretations, it results in the matching restriction.}%Tense and aspect have different distributions in Akan SVCS: we mark tense on all verbs, while aspect and marked on the first verb while co
 
-\abstract{%Tense and aspect have different distributions in Akan SVCS: we mark tense on all verbs, while aspect and marked on the first verb while co
+\IfFileExists{../localcommands.tex}{
+  \addbibresource{localbibliography.bib}
+  \input{../localpackages}
+  \input{../localcommands} 
+  \input{../localhyphenation} 
+  \togglepaper[1]%%chapternumber
+}{}
 
-
-In Akan, tense and aspect in serial verb constructions have different distributions. Tense is repeated on all the verbs; aspect only appears on the first verb, the following verbs have the \emph{\`a} marker. In this paper, I argue that this difference in distribution is a consequence of being evaluated by different syntactic mechanisms. Evaluation of unvalued features is licensed by two syntactic mechanisms, \textbf{Agree} and \textbf{Selection}/\textbf{Sel(ect)-Merge}. In Akan, tense is evaluated by Agree and aspect by Selection. The -\emph{\`a} morpheme that appears on the non-initial verbs in these clauses is the phonological realization of the morphosyntactic feature bundles [-prog,-fut]. Tense morphology depicts T-v Agree. The same tense inflection on all the verbs appears on verbs because one T-head parallel-Agrees with all of them. Since a single T-head cannot have different interpretations, it results in the matching restriction.
-}
-
-\shorttitlerunninghead{Tense and aspect in Akan serial verb constructions}  
 \begin{document}
-	\shorttitlerunninghead{Tense and aspect in Akan serial verb constructions}  
-\maketitle
+\maketitle 
 
-\section{Introduction}
+\section{Introduction}\label{sec:owusu:1}
 
 In this paper, I claim that both Agree and Selection mechanisms are necessary to explain the morphological distribution of tense and aspect in Akan Serial Verb Constructions (SVCs). In SVCs, tense morphology occurs on the first verb and all subsequent verbs. Aspect, on the other hand, occurs on the first verb, and all subsequent verbs take the \emph{\'a} morpheme/ consecutive marker \citep{Dolphyne1996, Osam2003}. I propose that the mechanism responsible for tense evaluation is Agree. There is a single T, which Agrees with all the verbs in SVCs relation, \citep{PesetskyTorrego2007}.  Aspect in Akan, on the other hand, is valued by \emph{Selection}. Following the idea in \citet{Kandybowicz2010, Kandybowicz2015} that aspect in merged within the vP in Akan, I posit two aspect projections in Akan: outer aspect, a projection above the vP where aspect is interpreted, and lower aspect where the aspect is base generated.  There is a compatibility/selection requirement between inner and outer aspect features. Since Selection is strictly between sisters, I adopt \citet{Webelhuth1992}'s percolation principles to percolate inner aspect features to the sister of outer aspect.\\
 The data and how the distribution of tense and aspect in Akan compared to other related languages are discussed in the next section. Then in \S3, I argue that Akan SVCs are covert coordination of vPs. The analysis of how tense and aspect have the particular distribution they do is discussed in \S4. \S5 is the conclusion.  
@@ -45,7 +31,7 @@ In Akan SVCs, tense morphology occurs on all verbs, as shown in example (\ref{ex
 \ea \textbf{V(Pst) \phantom {} {} {} V(Pst)}
 
 \ea\label{ex01} 
-\gll Kofi to-\textbf{o} bo\textipa{O} k\textipa{O}-\textipa{\textbf{O}} dan no mu. \\
+\gll Kofi to-\textbf{o} boɔ kɔ-\textbf{ɔ} dan no mu. \\
     Kofi throw-\textsc{pst} stone go-\textsc{pst} room \textsc{def} PostP   \\
 \glt `Kofi threw a stone into the room.'
 
@@ -54,13 +40,13 @@ In Akan SVCs, tense morphology occurs on all verbs, as shown in example (\ref{ex
 \textbf{$\ast$ \phantom {} {} {}  V(T (Pst)\phantom {} {} {}   V(T(Present)} 
      \ea\label{ex001} 
 
-\gll * Kofi to-o bo\textipa{O}  k\textipa{O} dan no mu.\\
+\gll * Kofi to-o boɔ  kɔ dan no mu.\\
 	{} Kofi throw-\textsc{pst} stone  go.\textsc{pres} room \textsc{def} PostP\\
 \z 
 \ex\label{ex3}
 \textbf{$\ast$ \phantom {} {} {}  V(Pst)\phantom {} {} {}   V(Asp)} 
      \ea\label{ex0001} 
-\gll * Kofi to-\textbf{o} bo\textipa{O}  \textbf{re}-k\textipa{O} dan no mu.\\
+\gll * Kofi to-\textbf{o} boɔ  \textbf{re}-kɔ dan no mu.\\
 	{} Kofi throw-\textsc{pst} stone  \textsc{prog}-go room  \textsc{def} PostP\\	
 \z 
 \z \z 
@@ -71,7 +57,7 @@ Aspect in these SVCs has a different set of restrictions. Only the first verb ca
 
 \ea\label{ex4} 
 \langinfo{Akan}{}{Personal knowledge} \\
-\gll Kofi \textbf{re}-to bo\textipa{O} \textbf{\`a}-k\textipa{O} dan mu.\\
+\gll Kofi \textbf{re}-to boɔ \textbf{\`a}-kɔ dan mu.\\
 	Kofi \textsc{prog}-throw stone \textsc{cons}-go room  PostP\\
 	 \\
 \glt `Kofi is throwing a stone for it to go into the room.'
@@ -80,14 +66,14 @@ Aspect in these SVCs has a different set of restrictions. Only the first verb ca
 \textbf{$\ast$ \phantom {} {} {}  V(Asp)\phantom {} {} {}   V(Asp)} 
      \ea\label{ex07} 
 \langinfo{Akan}{}{Personal knowledge} \\
-\gll * Kofi re-to bo\textipa{O} re-k\textipa{O}-\textipa{O} dan mu.\\
+\gll * Kofi re-to boɔ re-kɔ-ɔ dan mu.\\
 	{} Kofi \textsc{prog}-throw  stone  \textsc{prog}-go room PostP\\
 \z 
 \ex\label{ex005}
 \textbf{$\ast$ \phantom {} {} {}  V(Asp)\phantom {} {} {}   V(Past)} 
      \ea\label{ex7} 
 \langinfo{Akan}{}{Personal knowledge} \\
-\gll * Kofi re-to bo\textipa{O} k\textipa{O}-\textipa{O} dan mu.\\
+\gll * Kofi re-to boɔ kɔ-ɔ dan mu.\\
 	{} Kofi \textsc{prog}-throw  stone  go-\textsc{pst} room PostP\\
 \z 
 \z \z 
@@ -100,11 +86,11 @@ The \emph{\`a}- morpheme is ambiguous between the perfect marker and the consecu
 \z The distribution of tense and aspect in Akan SVCS, especially the multiple occurrences of tense on all verbs, distinguishes Akan from related languages such as Ewe. In Ewe SVCs, tense and aspect only marked once, a non-affix that precedes all the verbs, illustrated in the example below from \cite{Collins1997}.
 \ea \label{ex0)} 
 \langinfo{Ewe}{}{\cite{Collins1997}} \\
-\gll Ekpe \textbf{a} \texthtbardotlessj o k\textipa{O}po yi x\textipa{O}-me.\\
-rock \textsc{fut} hit cup go room-in\\
+\gll Ekpe \textbf{a} ʄ o kɔpo yi xɔ-me.\\
+rock {\textsc{fut}} hit cup go room-in\\
 \glt `A rock will hit a cup into the room.'\\
 `A rock will hit a cup, and the cup will go into the room.' 
-\z Tense attaches to neither of the verbs. The distribution of the tense morpheme in Ewe is in assonance with \citepos{BakerStewart2002} observation that most in most SVC languages there is no feature checking between the T and v thus no tense morphology on the verb.\\
+\z Tense attaches to neither of the verbs. The distribution of the tense morpheme in Ewe is in assonance with \citegen{BakerStewart2002} observation that most in most SVC languages there is no feature checking between the T and v thus no tense morphology on the verb.\\
 In the next section, I argue that what has hitherto been termed SVCs in Akan is covert coordination of \emph{v}Ps.
 
 \section{SVCs as coordinate constructions}
@@ -131,12 +117,12 @@ Following \citet{Kandybowicz2010, Kandybowicz2015}, I maintain that aspect origi
 The covert coordination accounts for the differences between Akan SVCs and SVCs in related languages. Another feature that distinguishes Akan SVCs from others is the absence of object sharing, i.e., two transitive verbs sharing the same object. In most languages, the shared object is sandwiched in between the two verbs, as in example (\ref{ex27}). 
 
 \ea D\`ag\'a\'ar\`e \citep{HiraiwaBodomo2008} \label{ex27}
-\ea  \gll \`o d\`a s\textipa{\'E} la n\textipa{\'E}n\`e \textipa{\`O}\textipa{\`O}.\\
+\ea  \gll \`o d\`a s\'{ɛ} la n\'{ɛ}n\`e \`{ɔ}\`{ɔ}.\\
 	3\textsc{sg} \textsc{pst} roast F meat eat\\
 \glt`He roasted meat and ate it.'
     
 \ex 
-\gll * \`o d\`a s\textipa{\'E} la  \textipa{\`O}\textipa{\`O} n\textipa{\'E}n\`e.\\
+\gll * \`o d\`a s\'{ɛ} la  \`{ɔ}\`{ɔ} n\'{ɛ}n\`e.\\
 	{} 3\textsc{sg} \textsc{pst} roast F eat meat\\
 \glt`He roasted meat and ate it.'
 
@@ -145,7 +131,7 @@ The covert coordination accounts for the differences between Akan SVCs and SVCs 
 \z 
 The sentence is ungrammatical if the object follows the last verb. In Akan, however, all transitive verbs get their own objects as illustrated in  (\ref{ex28}).
 
-\ea \label{ex28}  \gll  Kofi kye-e ab\textipa{O}fra no bo-o no.\\
+\ea \label{ex28}  \gll  Kofi kye-e abɔfra no bo-o no.\\
 	Kofi catch-\textsc{pst} child \textsc{det} beat-\textsc{pst} 3\textsc{sg}\\
 \glt`Kofi caught the child and spanked him.'\footnote{Inanimate pronouns are independently dropped clause final.
 
@@ -164,14 +150,14 @@ In this section, I account for the difference in the distribution of tense and a
 In \S3, I propose a structure for SVCs that include only one tense projection.  Recall that in Akan tense is marked on all verbs in an SVC, but the verbs necessarily have to match. This is why (\ref{ex011b}) is ungrammatical. 
 
 \ea \label{ex011}
-\ea \label{ex011a} \gll Kofi t\textipa{O}-\textipa{O} aduane di-i.\\
+\ea \label{ex011a} \gll Kofi tɔ-ɔ aduane di-i.\\
 	Kofi buy-\textsc{pst} food eat-\textsc{pst}\\
 	\glt `Kofi bought food to eat.'
     
-    \ex\label{ex011b} \gll * Kofi t\textipa{O}-\textipa{O} aduane re-di.\\
+    \ex\label{ex011b} \gll * Kofi tɔ-ɔ aduane re-di.\\
 	{} Kofi buy-\textsc{pst} food \textsc{prog}-eat\\
 	
- \z \z I argue the tense restriction we see in SVCs is a result of this single T projection simultaneously Agreeing with all verbs. To account for the relation between the single tense projection and the multiple verbs in SVCs, I adopt \citepos{PesetskyTorrego2007} theory of Agree, and an adaption of \citeauthor{Hiraiwa2001}'s \citeyearpar{Hiraiwa2001} Multiple Agree. Since Multiple Agree is defined for goals that are in a c-command relation, I defined  \textbf{Parallel Agree} to account for the SVCs context where there is no c-command between the goals.\\ Agree, according to \citet{PesetskyTorrego2007},  is feature sharing. They argue that agreement involves features of lexical items that differ as to whether they are valued/unvalued and interpretable/uninterpretable.  
+ \z \z I argue the tense restriction we see in SVCs is a result of this single T projection simultaneously Agreeing with all verbs. To account for the relation between the single tense projection and the multiple verbs in SVCs, I adopt \citegen{PesetskyTorrego2007} theory of Agree, and an adaption of \citeauthor{Hiraiwa2001}'s \citeyearpar{Hiraiwa2001} Multiple Agree. Since Multiple Agree is defined for goals that are in a c-command relation, I defined  \textbf{Parallel Agree} to account for the SVCs context where there is no c-command between the goals.\\ Agree, according to \citet{PesetskyTorrego2007},  is feature sharing. They argue that agreement involves features of lexical items that differ as to whether they are valued/unvalued and interpretable/uninterpretable.  
   
   \ea\label{ex23}
    \begin{tabular}{l  l  l  l }\lsptoprule
@@ -303,7 +289,7 @@ The central claim in this section is that \emph{\`a}- is the spell-out of an inn
 \ea \textbf{V(Asp) \phantom {} {} {} V(\`a)}
 
 \ea\label{ex041} 
-\gll Kofi re-to bo\textipa{O} \`a-k\textipa{O} dan mu.\\
+\gll Kofi re-to boɔ \`a-kɔ dan mu.\\
 	Kofi \textsc{prog}-throw stone \textsc{cons}-go room PostP\\
 	 \\
 \glt `Kofi is throwing a stone for it to go into the room.'
@@ -311,13 +297,13 @@ The central claim in this section is that \emph{\`a}- is the spell-out of an inn
 \ex\label{ex051}
 \textbf{$\ast$ \phantom {} {} {}  V(Asp)\phantom {} {} {}   V(Past)} 
      \ea\label{ex7} 
-\gll * Kofi re-to bo\textipa{O} k\textipa{O}-\textipa{O} dan mu.\\
+\gll * Kofi re-to boɔ kɔ-ɔ dan mu.\\
 	{} Kofi \textsc{prog}-throw  stone  go-\textsc{pst} room PostP\\
 \z 
 \ex\label{ex061}
 \textbf{$\ast$ \phantom {} {} {}  V(Asp)\phantom {} {} {}   V(fut)} 
      \ea\label{ex1} 
-\gll * Kofi re-to bo\textipa{O}  b\textipa{\`E}-k\textipa{O} dan mu.\\
+\gll * Kofi re-to boɔ  b\`{ɛ}-kɔ dan mu.\\
 	{} Kofi \textsc{prog}-throw stone  \textsc{fut}-go room PostP\\
 
 \z 
@@ -331,7 +317,7 @@ I assume that aspect features percolate to VoiceP, the sister of Outer aspect, w
 \z
 \z
 These principles determine where features can percolate from.\\ 
-Inner aspect is associated with three morphosyntactic feature bundles; [+prog, -fut] (\textbf{progressive}) , [+fut,-prog] (\textbf{future}) and [-prog,-fut] (\textbf{\`a}).  \emph{\`a} has no semantic input. The interpretation of aspect is the union of outer aspect and inner aspect, but since Outer aspect has no value, Inner aspect determines the value of the construction. Through percolation, inner aspect features get to VoiceP where Outer aspect can check them for selection.  I argue that since \emph{\`a} has no semantic input, it is infelicitous in any position where it has to contribute to interpretation. This is what happens in the simple clause as in (\ref{ex8}). In a simple clause, the feature bundle of \emph{\`a'}  percolate to VocieP where it is accessible to Outer aspect, but there is no interpretable aspect features. We can extend the same argument to all contexts where consecutive \emph{\`a}- is not felicitous. For instance, as the verb in an SVC, the features of \emph{\`a}- has to percolate to Outer aspect for interpretation. The analysis here borrows the idea from  \citet{Zhang2010} that the external conjuncts are privileged, i.e., it is only the features of the external conjunct that are relevant for feature selection. 
+Inner aspect is associated with three morphosyntactic feature bundles; [+prog, -fut] (\textbf{progressive}) , [+fut,-prog] (\textbf{future}) and [-prog,-fut] (\textbf{\`a}).  \emph{\`a} has no semantic input. The interpretation of aspect is the union of outer aspect and inner aspect, but since Outer aspect has no value, Inner aspect determines the value of the construction. Through percolation, inner aspect features get to VoiceP where Outer aspect can check them for selection.  I argue that since \emph{\`a} has no semantic input, it is infelicitous in any position where it has to contribute to interpretation. This is what happens in the simple clause as in (\ref{ex8}). In a simple clause, the feature bundle of \emph{\`a'}  percolate to VocieP where it is accessible to Outer aspect, but there is no interpretable aspect features. We can extend the same argument to all contexts where consecutive \emph{\`a}- is not felicitous. For instance, as the verb in an SVC, the features of \emph{\`a}- has to percolate to Outer aspect for interpretation. The analysis here borrows the idea from  \citet{Zhang2009} that the external conjuncts are privileged, i.e., it is only the features of the external conjunct that are relevant for feature selection. 
 
 For instance, a verb that does not select for a CP complement can take a conjoined DP and CP as its complement as long as they are in that order. In (\ref{ex39}), though the preposition \emph{ on} selects a DP, it can take a conjoined DP and CP, only if the DP is in the external conjunct.
 \ea\label{ex39}
@@ -351,7 +337,7 @@ For instance, a verb that does not select for a CP complement can take a conjoin
 	 \tikzset{every tree node/.style={align=center,anchor=north}}
 	\Tree [.TP [.DP\\Kofi ] [.T'
 	[.T ] [.NegP [.Neg ] [.OAspP [.OAsp\\re ] [.\node(110){VoiceP+prog,-fut}; [.DP ] [.\node (105){Voice'+prog,-fut}; [.Voice ] [.\node (V)  {vP+prog,-fut};
-	 [.\node (102){vP+prog,-fut}; [.v\\to ] [.\node (101){IAspP+prog,-fut}; [.\node (100){IAsp\\{[+prog,-fut]}}; ] [.VP [.V ] [.DP\\bo\textipa{O} ] ] ] ]  [.v' [.\node (V2)  {v}; $\emptyset$ ]  [.\node (vpp) {vP{-prog,-fut}}; [.v ] [.\node (ok){IAspP{-prog,-fut}\\}; [.\node (okk){IAsp\\{[-prog,-fut]}}; ] [.VP [.V\\k\textipa{O} ] [.PP [.DP [.NP\\dan ] [.D\\no ] ] [.P\\mu ] ] ] ] ]
+	 [.\node (102){vP+prog,-fut}; [.v\\to ] [.\node (101){IAspP+prog,-fut}; [.\node (100){IAsp\\{[+prog,-fut]}}; ] [.VP [.V ] [.DP\\boɔ ] ] ] ]  [.v' [.\node (V2)  {v}; $\emptyset$ ]  [.\node (vpp) {vP{-prog,-fut}}; [.v ] [.\node (ok){IAspP{-prog,-fut}\\}; [.\node (okk){IAsp\\{[-prog,-fut]}}; ] [.VP [.V\\kɔ ] [.PP [.DP [.NP\\dan ] [.D\\no ] ] [.P\\mu ] ] ] ] ]
 	  ] ] ]
 	 ] ] ]
 	] ]
@@ -375,7 +361,7 @@ This same logic can be used to account for the ungrammaticality of \emph{\`a} in
 \z
 \ea \label{ex41}
 \ea  *re  (+prog, -fut) + re  (+prog, -fut)  
-\ex *re (+prog, -fut) + b\textipa{E} (-prog, +fut)
+\ex *re (+prog, -fut) + bɛ (-prog, +fut)
 	\ex \label{ex41c} re (+prog, -fut) + \emph{\`a}- (-prog, -fut)
 \z
 \z

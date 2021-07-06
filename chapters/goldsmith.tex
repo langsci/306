@@ -1,49 +1,23 @@
-\documentclass[output=paper,colorlinks,citecolor=brown,
-% hidelinks,
-% showindex
-]{langscibook}
-\author{John Goldsmith\affiliation{University of Chicago}\lastand Fidèle Mpiranya\affiliation{University of Chicago}}
+\documentclass[output=paper,colorlinks,citecolor=brown]{langscibook}
+
 \title{Learning Swahili morphology}
 
+\author{John Goldsmith\affiliation{University of Chicago} and Fidèle Mpiranya\affiliation{University of Chicago}}
 
-  
-%move the following commands to the "local..." files of the master project when integrating this chapter
-\usepackage{tabularx}
-\usepackage{langsci-basic}
-\usepackage{langsci-optional}
-\usepackage{langsci-gb4e}
-%\bibliography{localbibliography}
-%\newcommand{\textcolor{red}}{{\color{red}TM}}
-%\newcommand{\textcolor{red}}{{\textcolor{red}{}}}
-\newcommand{\SM}{{\color{red}SM}}
-%\newcommand{\R}{{\color{red}R}}
-\newcommand{\orcid}[1]{}
-\pagenumbering{arabic}
-
-\IfFileExists{../localcommands.tex}{%hack to check whether this is being compiled as part of a collection or standalone
-   \input{../localpackages}
-   \input{../localcommands}
-   \input{../localhyphenation}
-    \bibliography{../localbibliography}
-    \togglepaper[23]
+\abstract{}
+\IfFileExists{../localcommands.tex}{
+  \addbibresource{localbibliography.bib}
+  \input{../localpackages}
+  \input{../localcommands} 
+  \input{../localhyphenation} 
+  \togglepaper[1]%%chapternumber
 }{}
 
-%custom footer for preprints
-\papernote{\scriptsize\normalfont
-    Change author.
-    Change title.
-    To appear in:
-    Change Volume Editor.  
-    Change volume title.  
-    Berlin: Language Science Press. 
-}
-
-\shorttitlerunninghead{Learning Swahili Morphology}
 \begin{document}
-\shorttitlerunninghead{Learning Swahili Morphology}
-\maketitle
+\maketitle 
 
-\section{Introduction}
+\section{Introduction}\label{sec:goldsmith:1}
+
 In this paper we would like to explain some of the things that we have learned from a project on the learning of morphology. ``Learning of morphology'' in this context means using an algorithm which takes a large amount of text from a language, and draws conclusions about what are the roots, affixes, and principles of word construction (from roots and affixes) in this particular language. The crucial fact to bear in mind is that the algorithm is to have no prior knowledge of the language that we give to it. If the language is English or is Swahili, the learning algorithm starts from the same point; any differences that it draws between the two derive entirely from the data, and not from anything that we have given to the algorithm. 
 
 That sounds like a tall order, and in some ways it is. But we can offer the following as motivation for this work. When we teach an introductory course on linguistics, we always reserve the second class on morphology for an experiment. We begin by putting a word on the board: \textit{ninasema}, but we do not tell them this is from Swahili. We ask if anyone knows what it means or what language it comes from; if someone does know, we tell them to be quiet for the rest of the class. Then we ask everyone else to divide it into morphemes. There is silence, of course, because the students think they have no idea what the right answer is. Then we ask them to guess how many morphemes there are here: one? two? more? Students guess there are at least two morphemes, and if pressed, typically offer a cut into \textit{nina-sema.}
@@ -399,7 +373,7 @@ However, the template given in these two tables gives only a superficial summary
 There are 1,235 signatures that emerge from the first iteration of prefixal analysis. What do these signatures say? What can we learn from them? It is naturally to sort them in some way so that the most interesting signatures will appear at the top of the list, and there are several ways of sorting that come to mind. We might, for example, sort the signatures by the number of stems they contain, or we might sort them by the number of affixes. Both present us with interesting material. From a linguist's point of view, sorting them by the number of affixes is by far the more interesting. Figure \figref{lattice}, which is presented to the user by Linguistica, shows how we can arrange the signatures in a lattice, where signatures with the same number of affixes appear on the same row, and in which the signatures in each row are sorted by decreasing numbers of stems (though we have departed that latter point a bit to make the figures easier to read here). 
  
 \begin{figure}
-\includegraphics[scale=0.7]{../figures/top_of_lattice.png}
+\includegraphics[scale=0.7]{figures/top_of_lattice.png}
 \caption{Top of the lattice of word-initial signatures}
 \label{lattice}
 \end{figure}
@@ -482,9 +456,9 @@ Let us dig a little more deeply, and look at the parastems that are found in the
 \begin{table}  
 
 
- \lsptoprule 
 \begin{minipage}{.3\textwidth}
 \begin{tabular}{ll} 
+\lsptoprule 
 na & 554,554 \\
 le & 33,130 \\
 ki{w}a & 20,663 \\
@@ -542,9 +516,9 @@ ngali & 331 \\
 {na}{jeng}a    & 151 \\ 
 {na}i{fany}a    &91 \\ 
 
+\lspbottomrule
 \end{tabular}
 \end{minipage}
-\lspbottomrule
 \caption{Parastems of the longest signature, sorted by frequency}
 \label{topsigstems}
 \end{table}
@@ -552,9 +526,9 @@ ngali & 331 \\
 %%========================================================================================%
 %
 \begin{table}
-\lsptoprule
 \begin{minipage}{.24\textwidth}
 \begin{tabular}{ll} 
+\lsptoprule
 a \\
 \textcolor{blue}{jadili}   \\
 \textcolor{red}{ka} \textcolor{blue}{fany} a     \\ 
@@ -611,9 +585,9 @@ po   \\
 \textcolor{red}{ta} \textcolor{blue}{to} a   \\ 
 we   \\
 \textcolor{blue}{zidi}  \\ 
+\lspbottomrule
 \end{tabular}
 \end{minipage}
-\lspbottomrule
 \caption{Parastems of the longest signature alphabetized from left to right}
 \label{stems-alphabetized-1}
 \end{table} 
@@ -647,9 +621,9 @@ The second signature, which has 13 affixes and 56 stems, is missing the subject 
 
 
 \begin{table}
-	\lsptoprule
 \begin{minipage}[t]{.24\textwidth}
 \begin{tabular}{ll} 
+	\lsptoprule
 lisema \\ 
 likuwa\\
 mekuwa \\ 
@@ -721,9 +695,9 @@ najenga \\
 naenda \\ 
 kabaki \\ 
 naifanya \\  
+\lspbottomrule
  \end{tabular}
  \end{minipage}
-\lspbottomrule
  \caption{Parastems of second signature, sorted by decreasing frequency}
  \label{2ndsignatureparastems}
  \end{table}
@@ -731,9 +705,9 @@ naifanya \\
 
 
 \begin{table}
-\lsptoprule
 \begin{minipage}[t]{.24\textwidth}
 \begin{tabular}{ll} 
+\lsptoprule
 \textcolor{blue}{baki} \\ 
 \textcolor{red}{ka} \textcolor{blue}{anz} a \\ 
 \textcolor{red}{ka} \textcolor{blue}{baki} \\ 
@@ -802,9 +776,9 @@ siwe \\
 \textcolor{red}{ki} wemo \\ 
 weze \\ 
 wape \\ 
+\lspbottomrule
 \end{tabular}
 \end{minipage}
-\lspbottomrule
 \caption{Parastems of second signature, sorted left to right}
  \label{2ndsignatureparastemsalphabetized}
 \end{table}
