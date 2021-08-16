@@ -336,11 +336,11 @@ fairly nice empty nodes
 				[VP
 					[V [\sout{\ol{many-il-e}}\\\sout{know},name=V1]]
 					[CP
-						[\sout{DP},name=specCP [\sout{\ol{o-mu-eene}}\\\sout{\agre},name=CPagre,roof] { \draw[->,semithick] () -- +(-5.5,0) -- (reduceme3); }]
+						[\sout{DP},name=specCP [\sout{\ol{o-mu-eene}}\\\sout{\agre},name=CPagre,roof] { \draw[->,semithick] () -| (reduceme3); }]
 						[{}
 							[C [\ol{a-li}]]
 							[TP
-								[\ol{George a-mu-siim-a}\\George likes \agre{},roof] { \draw[->,semithick] () +(.8,-.2) -- +(0.8,-1) -- +(-4.2,-1) -- (CPagre); }
+								[\ol{George a-mu-siim-a}\\George likes \agre{},roof] { \draw[->,semithick] (.south) -| ($(.south)+(0,-1em)$) -| (CPagre); }
 								% [DP,name=specTP2 [George,name=George,roof]]
 								% [
 									% [T]
@@ -368,8 +368,8 @@ fairly nice empty nodes
 % \draw[->,semithick] (specCP)..controls +(south west:3) and +(south west:3)..(reduceme3);
 % % \draw[->,semithick,dashed] (v2)..controls +(south west:2) and +(west:2) ..(reduceme2)
 % % node[very near end,left] {\scriptsize m-merger};
-\draw[->,semithick,dashed] (v1)..controls +(south west:2) and +(west:2) ..(reduceme3)
-node[midway,left] {\scriptsize m-merger};
+\draw[->,semithick,dashed] (v1.south)..controls +(south west:3) and +(west:2.5) ..($(reduceme3.west)+(0,0.5em)$)
+node[midway,below left]{\scriptsize m-merger};
 \end{forest}
     }
 \z
@@ -427,8 +427,8 @@ The preposition-licensed and applicative-licensed cases, on the other hand, have
     		]
     	]
     ]
-    \draw[->,semithick] (V1)..controls +(south west:1) and +(south:1)..(appl);
-    \draw[->,semithick] (appl)..controls +(south west:1) and +(south:1)..(v1);
+    \draw[->,semithick] (V1)..controls +(south west:2) and +(south:1)..(appl);
+    \draw[->,semithick] (appl)..controls +(south west:2) and +(south:2)..(v1);
     % \draw[->,semithick] (compV)..controls +(south east:5) and +(south west:3)..(reduceme2);
     % \draw[->,semithick] (reduceme2)..controls +(south west:3) and +(south west:3)..(specCP);
     % \draw[->,semithick] (specCP)..controls +(south west:3) and +(south west:3)..(reduceme3);
@@ -648,7 +648,7 @@ Since both constructions involve the same projection in the left periphery, they
 \ea%40
     \label{ex:newkirk:40}
     \scalebox{.75}{
-    \hspace{-4cm}
+    \hspace{-1cm}
 \begin{forest}
 fairly nice empty nodes
 % [TP
@@ -669,7 +669,7 @@ fairly nice empty nodes
 									[Eval$'$
 										[Eval]
 										[Eval\**
-											[\sout{DP},name=specCP [\sout{\ol{o-mu-eene}}\\\sout{\agre},name=CPagre,roof] { \draw[->,semithick] () -- +(-6.5,0) -- (reduceme3); }]
+											[\sout{DP},name=specCP [\sout{\ol{o-mu-eene}}\\\sout{\agre},name=CPagre,roof] { \draw[->,semithick] () -| (reduceme3); }]
 											[Eval\**
 												[Eval\**]
 												[\ldots %EvidP
@@ -677,7 +677,7 @@ fairly nice empty nodes
 													% [Evid$'$
 													% 	[Evid]
 															[TP
-								[\ol{George a-mu-siim-a o-mu-eene}\\George likes \agre{},roof] { \draw[->,semithick] () +(.7,-.2) -- +(0.7,-1) -- +(-3.5,-1) -- (CPagre); }
+								[\ol{George a-mu-siim-a o-mu-eene}\\George likes \agre{},roof] { \draw[->,semithick] (.south) -| ($(.south)+(0,-1em)$) -| (CPagre); }
 								% [DP,name=specTP2 [George,name=George,roof]]
 								% [
 									% [T]
@@ -709,8 +709,8 @@ fairly nice empty nodes
 % \draw[->,semithick] (specCP)..controls +(south west:3) and +(south west:3)..(reduceme3);
 % % \draw[->,semithick,dashed] (v2)..controls +(south west:2) and +(west:2) ..(reduceme2)
 % % node[very near end,left] {\scriptsize m-merger};
-\draw[->,semithick,dashed] (v1)..controls +(south west:2) and +(west:2) ..(reduceme3)
-node[midway,left] {\scriptsize m-merger};
+\draw[->,semithick,dashed] (v1)..controls +(south west:3) and +(west:2.5) ..($(reduceme3)+(-1em,0.5em)$)
+node[pos=0.35,below left] {\scriptsize m-merger};
 \end{forest}
 }
 \z
