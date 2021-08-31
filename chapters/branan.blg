@@ -1,5 +1,0 @@
-[0] Config.pm:311> INFO - This is Biber 2.16
-[0] Config.pm:314> INFO - Logfile is 'branan.blg'
-[53] biber:340> INFO - === Di Aug  3, 2021, 17:40:06
-[160] Utils.pm:411> ERROR - Cannot find 'branan.bcf'!
-[160] Biber.pm:132> INFO - ERRORS: 1
