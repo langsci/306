@@ -11,6 +11,7 @@
 }{}
 
 \begin{document}
+\SetupAffiliations{mark style=none}
 \maketitle 
 
 \section{Introduction}\label{sec:halpert:1}
@@ -445,12 +446,27 @@ One intriguing issue that any treatment of this phenomenon must contend with is 
 
 \section*{Abbreviations}
 
-Glossing follows the Leipzig Glossing Conventions, with the following departures: noun classes are glossed with cardinal numbers (1,2,3,\ldots); first and second person with ordinal numbers; \textsc{assoc} associative, \textsc{aug} augment, \textsc{dj} disjoint, \textsc{ext} extension, Lk linker, \textsc{om} object marker, \textsc{sm} subject marker.
+\begin{minipage}[t][][b]{.45\textwidth}
+	\begin{tabularx}{\textwidth}{lQ}
+		1,2,3,\ldots & Noun classes \\
+		\textsc{assoc} & Associative \\
+		\textsc{aug} & Augment \\
+		\textsc{dj} & Disjoint
+	\end{tabularx}
+\end{minipage}%
+\begin{minipage}[t][][b]{.45\textwidth}
+	\begin{tabularx}{\textwidth}{lQ}
+		\textsc{ext} & Extension \\
+		Lk & Linker \\
+		\textsc{om} & Object marker \\
+		\textsc{sm} & Subject marker
+	\end{tabularx}
+\end{minipage}
 
 \section*{Acknowledgements}
 
 I am grateful to Mthuli Percival Buthlezi, Monwabisi Mhlophe, Mfundo Didi, Menzi Komo, and Thandeka Maphumulo  for their assistance with Zulu data and grammaticality judgments and to Pierre Mujomba for sharing his Kinande judgments. I am also grateful to Jochen Zeller for our ongoing discussions about passives that have informed this research and to the audience at ACAL 49 for useful feedback and discussion.
 
-\printbibliography[heading=subbibliography,notkeyword=this]
+{\sloppy\printbibliography[heading=subbibliography,notkeyword=this]}
 
 \end{document}

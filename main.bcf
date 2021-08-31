@@ -2380,77 +2380,6 @@
   <bcf:section number="0">
     <bcf:citekey order="1">langsci-current-book</bcf:citekey>
   </bcf:section>
-  <!-- SECTION 1 -->
-  <bcf:bibdata section="1">
-    <bcf:datasource type="file" datatype="bibtex" glob="false">localbibliography.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex" glob="false">langscitmp.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex" glob="false">collection_tmp.bib</bcf:datasource>
-  </bcf:bibdata>
-  <bcf:section number="1">
-    <bcf:citekey order="1">Dolphyne1996</bcf:citekey>
-    <bcf:citekey order="1">Osam2003</bcf:citekey>
-    <bcf:citekey order="2">PesetskyTorrego2007</bcf:citekey>
-    <bcf:citekey order="3">Kandybowicz2010</bcf:citekey>
-    <bcf:citekey order="3">Kandybowicz2015</bcf:citekey>
-    <bcf:citekey order="4">Webelhuth1992</bcf:citekey>
-    <bcf:citekey order="5">chapters/owusufooter</bcf:citekey>
-    <bcf:citekey order="6">Dolphyne1996</bcf:citekey>
-    <bcf:citekey order="7">Osam2003</bcf:citekey>
-    <bcf:citekey order="8">Collins1997</bcf:citekey>
-    <bcf:citekey order="9">Collins1997</bcf:citekey>
-    <bcf:citekey order="10">BakerStewart2002</bcf:citekey>
-    <bcf:citekey order="11">BakerStewart2002</bcf:citekey>
-    <bcf:citekey order="12">Martin2011</bcf:citekey>
-    <bcf:citekey order="13">Kratzer1996</bcf:citekey>
-    <bcf:citekey order="14">Veenstra1993</bcf:citekey>
-    <bcf:citekey order="15">JansenEtAl1978</bcf:citekey>
-    <bcf:citekey order="16">Sebba1987</bcf:citekey>
-    <bcf:citekey order="17">Baker1989</bcf:citekey>
-    <bcf:citekey order="18">Collins1997</bcf:citekey>
-    <bcf:citekey order="19">Baker1989</bcf:citekey>
-    <bcf:citekey order="19">BakerStewart2002</bcf:citekey>
-    <bcf:citekey order="19">Collins1997</bcf:citekey>
-    <bcf:citekey order="19">Aboh2009</bcf:citekey>
-    <bcf:citekey order="20">BakerStewart2002</bcf:citekey>
-    <bcf:citekey order="21">Agbedor1994</bcf:citekey>
-    <bcf:citekey order="22">Kandybowicz2010</bcf:citekey>
-    <bcf:citekey order="22">Kandybowicz2015</bcf:citekey>
-    <bcf:citekey order="23">HiraiwaBodomo2008</bcf:citekey>
-    <bcf:citekey order="24">PesetskyTorrego2007</bcf:citekey>
-    <bcf:citekey order="25">PesetskyTorrego2007</bcf:citekey>
-    <bcf:citekey order="26">Hiraiwa2001</bcf:citekey>
-    <bcf:citekey order="27">Hiraiwa2001</bcf:citekey>
-    <bcf:citekey order="28">PesetskyTorrego2007</bcf:citekey>
-    <bcf:citekey order="29">Hiraiwa2001</bcf:citekey>
-    <bcf:citekey order="30">Rizzi2004</bcf:citekey>
-    <bcf:citekey order="31">Rizzi2013Notes</bcf:citekey>
-    <bcf:citekey order="32">Rizzi2013Notes</bcf:citekey>
-    <bcf:citekey order="33">Rizzi2013Locality</bcf:citekey>
-    <bcf:citekey order="34">Rizzi2013Notes</bcf:citekey>
-    <bcf:citekey order="35">Rizzi2013Locality</bcf:citekey>
-    <bcf:citekey order="36">Cinque2002</bcf:citekey>
-    <bcf:citekey order="36">Cinque2006</bcf:citekey>
-    <bcf:citekey order="37">RizziCinque2016</bcf:citekey>
-    <bcf:citekey order="38">CinqueRizzi2010</bcf:citekey>
-    <bcf:citekey order="39">Kandybowicz2010</bcf:citekey>
-    <bcf:citekey order="39">Kandybowicz2015</bcf:citekey>
-    <bcf:citekey order="40">Hacquard2006</bcf:citekey>
-    <bcf:citekey order="41">Travis2010</bcf:citekey>
-    <bcf:citekey order="41">Travis1991</bcf:citekey>
-    <bcf:citekey order="41">Smith1991</bcf:citekey>
-    <bcf:citekey order="41">MacDonald2006</bcf:citekey>
-    <bcf:citekey order="42">Travis2010</bcf:citekey>
-    <bcf:citekey order="43">Webelhuth1992</bcf:citekey>
-    <bcf:citekey order="44">Webelhuth1992</bcf:citekey>
-    <bcf:citekey order="45">Webelhuth1992</bcf:citekey>
-    <bcf:citekey order="46">Zhang2009</bcf:citekey>
-    <bcf:citekey order="47">Boskovic1997Book</bcf:citekey>
-    <bcf:citekey order="48">Boskovic1997Book</bcf:citekey>
-    <bcf:citekey order="49">Boskovic1997Wh</bcf:citekey>
-  </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
     <bcf:sort order="1">
@@ -2481,13 +2410,4 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
-  <bcf:datalist section="1"
-                name="nyt/global//global/global"
-                type="entry"
-                sortingtemplatename="nyt"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
 </bcf:controlfile>

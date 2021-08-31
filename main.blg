@@ -1,40 +1,43 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'main.blg'
-[60] biber:340> INFO - === Mo Aug 16, 2021, 13:20:16
-[72] Biber.pm:415> INFO - Reading 'main.bcf'
-[132] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
-[134] Biber.pm:952> INFO - Found 34 citekeys in bib section 1
-[134] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[150] Biber.pm:4340> INFO - Processing section 0
-[159] Biber.pm:4531> INFO - Looking for bibtex format file 'localbibliography.bib' for section 0
-[173] bibtex.pm:1689> INFO - LaTeX decoding ...
-[640] bibtex.pm:1494> INFO - Found BibTeX data source 'localbibliography.bib'
-[670] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_G3mr/7614e5778fec534846b1f27d2a4dd6eb_31742.utf8, line 1298, warning: 13 characters of junk seen at toplevel
-[670] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_G3mr/7614e5778fec534846b1f27d2a4dd6eb_31742.utf8, line 1612, warning: 108 characters of junk seen at toplevel
-[670] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_G3mr/7614e5778fec534846b1f27d2a4dd6eb_31742.utf8, line 2979, warning: 70 characters of junk seen at toplevel
-[670] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_G3mr/7614e5778fec534846b1f27d2a4dd6eb_31742.utf8, line 3140, warning: 58 characters of junk seen at toplevel
-[670] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_G3mr/7614e5778fec534846b1f27d2a4dd6eb_31742.utf8, line 4101, warning: 24 characters of junk seen at toplevel
-[670] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_G3mr/7614e5778fec534846b1f27d2a4dd6eb_31742.utf8, line 4750, warning: 13 characters of junk seen at toplevel
-[670] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_G3mr/7614e5778fec534846b1f27d2a4dd6eb_31742.utf8, line 5307, warning: 13 characters of junk seen at toplevel
-[670] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_G3mr/7614e5778fec534846b1f27d2a4dd6eb_31742.utf8, line 5423, warning: 13 characters of junk seen at toplevel
-[670] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_G3mr/7614e5778fec534846b1f27d2a4dd6eb_31742.utf8, line 5493, warning: 67 characters of junk seen at toplevel
-[670] Biber.pm:4531> INFO - Looking for bibtex format file 'langscitmp.bib' for section 0
-[671] bibtex.pm:1689> INFO - LaTeX decoding ...
-[672] bibtex.pm:1494> INFO - Found BibTeX data source 'langscitmp.bib'
-[700] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[701] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[701] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[701] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[702] Biber.pm:4340> INFO - Processing section 1
-[702] Biber.pm:4531> INFO - Looking for bibtex format file 'localbibliography.bib' for section 1
-[817] Biber.pm:4531> INFO - Looking for bibtex format file 'langscitmp.bib' for section 1
-[817] Biber.pm:4531> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 1
-[817] bibtex.pm:1689> INFO - LaTeX decoding ...
-[820] bibtex.pm:1494> INFO - Found BibTeX data source 'collection_tmp.bib'
-[864] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[864] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[864] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[864] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[892] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[904] bbl.pm:757> INFO - Output to main.bbl
-[904] Biber.pm:128> INFO - WARNINGS: 9
+[59] biber:340> INFO - === Di Aug 17, 2021, 22:54:14
+[69] Biber.pm:415> INFO - Reading 'main.bcf'
+[129] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
+[130] Biber.pm:952> INFO - Found 20 citekeys in bib section 1
+[130] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[146] Biber.pm:4340> INFO - Processing section 0
+[154] Biber.pm:4531> INFO - Looking for bibtex format file 'localbibliography.bib' for section 0
+[167] bibtex.pm:1689> INFO - LaTeX decoding ...
+[621] bibtex.pm:1494> INFO - Found BibTeX data source 'localbibliography.bib'
+[651] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_01Di/7614e5778fec534846b1f27d2a4dd6eb_22115.utf8, line 1298, warning: 13 characters of junk seen at toplevel
+[651] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_01Di/7614e5778fec534846b1f27d2a4dd6eb_22115.utf8, line 1612, warning: 108 characters of junk seen at toplevel
+[651] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_01Di/7614e5778fec534846b1f27d2a4dd6eb_22115.utf8, line 2979, warning: 70 characters of junk seen at toplevel
+[651] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_01Di/7614e5778fec534846b1f27d2a4dd6eb_22115.utf8, line 3140, warning: 58 characters of junk seen at toplevel
+[652] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_01Di/7614e5778fec534846b1f27d2a4dd6eb_22115.utf8, line 4101, warning: 24 characters of junk seen at toplevel
+[652] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_01Di/7614e5778fec534846b1f27d2a4dd6eb_22115.utf8, line 4750, warning: 13 characters of junk seen at toplevel
+[652] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_01Di/7614e5778fec534846b1f27d2a4dd6eb_22115.utf8, line 5307, warning: 13 characters of junk seen at toplevel
+[652] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_01Di/7614e5778fec534846b1f27d2a4dd6eb_22115.utf8, line 5423, warning: 13 characters of junk seen at toplevel
+[652] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_01Di/7614e5778fec534846b1f27d2a4dd6eb_22115.utf8, line 5493, warning: 67 characters of junk seen at toplevel
+[652] Biber.pm:4531> INFO - Looking for bibtex format file 'langscitmp.bib' for section 0
+[652] bibtex.pm:1689> INFO - LaTeX decoding ...
+[654] bibtex.pm:1494> INFO - Found BibTeX data source 'langscitmp.bib'
+[682] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[682] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[682] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[682] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[683] Biber.pm:4340> INFO - Processing section 1
+[684] Biber.pm:4531> INFO - Looking for bibtex format file 'localbibliography.bib' for section 1
+[742] Biber.pm:4531> INFO - Looking for bibtex format file 'langscitmp.bib' for section 1
+[742] Biber.pm:4531> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 1
+[743] bibtex.pm:1689> INFO - LaTeX decoding ...
+[745] bibtex.pm:1494> INFO - Found BibTeX data source 'collection_tmp.bib'
+[752] Utils.pm:395> WARN - I didn't find a database entry for 'Goldsmith201014' (section 1)
+[752] Utils.pm:395> WARN - I didn't find a database entry for 'DePaude2008improving' (section 1)
+[752] Utils.pm:395> WARN - I didn't find a database entry for 'de2007unsupervised' (section 1)
+[774] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[774] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[774] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[775] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[790] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[798] bbl.pm:757> INFO - Output to main.bbl
+[798] Biber.pm:128> INFO - WARNINGS: 12

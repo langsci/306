@@ -2,9 +2,7 @@
 
 \title{Tense and aspect in Akan serial verb constructions}  
 
-\author{%
- Augustina Owusu\affiliation{Rutgers University} 
-}
+\author{Augustina Owusu\affiliation{Rutgers University}}
 
 \abstract{In Akan, tense and aspect in serial verb constructions have different distributions. Tense is repeated on all the verbs; aspect only appears on the first verb, the following verbs have the \emph{\`a} marker. In this paper, I argue that this difference in distribution is a consequence of being evaluated by different syntactic mechanisms. Evaluation of unvalued features is licensed by two syntactic mechanisms, \textbf{Agree} and \textbf{Selection}/\textbf{Sel(ect)-Merge}. In Akan, tense is evaluated by Agree and aspect by Selection. The -\emph{\`a} morpheme that appears on the non-initial verbs in these clauses is the phonological realization of the morphosyntactic feature bundles [-prog,-fut]. Tense morphology depicts T-v Agree. The same tense inflection on all the verbs appears on verbs because one T-head parallel-Agrees with all of them. Since a single T-head cannot have different interpretations, it results in the matching restriction.}%Tense and aspect have different distributions in Akan SVCS: we mark tense on all verbs, while aspect and marked on the first verb while co
 
@@ -17,6 +15,7 @@
 }{}
 
 \begin{document}
+\SetupAffiliations{mark style=none}
 \maketitle 
 
 \section{Introduction}\label{sec:owusu:1}
@@ -194,7 +193,7 @@ Kofi bought food.
 	 [.\node (102){vP}; [.\node(v1){v uT val[past]};\\buy ] [.VP [.V ] [.DP\\food ] ]  ] ] ]
 	 ]  
 	] ] ]
-	\draw[dashed, -> ] (T.south) to [bend right=90] (v1.south);
+	\draw[dashed, -> ] (T.south) to [bend right=90] ($(v1.south west)+(2.5em,0)$);
 %	\draw[dashed, -> ] (T.south) to [bend right=90] (v2.south);
 \end{tikzpicture}
 
@@ -209,8 +208,8 @@ Parallel Agree with a single probe is a single simultaneous syntactic operation:
 \begin{center}
 	\begin{tikzpicture}
 		\Tree [.a [.\node(A) {$\alpha$}; ] [.b [.c [.e ] [. \node(B) {$\beta$}; ] ] [.d [.f ] [.\node(Y) {$\gamma$}; ] ] ] ]
-	\draw[->](A)..controls +(south west:1) and +(west:1)..(B);
-	\draw[->](A)..controls +(south west:5) and +(west:1)..(Y);
+	\draw[->](A)..controls +(south west:2) and +(south west:2)..(B);
+	\draw[->](A)..controls +(south west:2) and +(south west:2)..(Y);
 	\end{tikzpicture} 
 \end{center}
 \emph{Agree ($\alpha$, $\beta$, $\gamma$), where $\alpha$ is a probe and $\beta$ and  $\gamma$ are matching goals for $\alpha$ and they do not c-command each other.}\\
@@ -230,8 +229,8 @@ With Parallel Agree, we can derive the Agree relation with the single T projecti
 	  ] ] ] ]
 	 ]  
 	] ] ]
-	\draw[dashed, -> ] (T.south) to [bend right=90] (v1.south);
-	\draw[dashed, -> ] (T.south) to [bend right=90] (v2.south);
+	\draw[dashed, -> ] (T.south) to [bend right=90] ($(v1.south west)+(2.5em,0)$);
+	\draw[dashed, -> ] (T.south) to [bend right=90] ($(v2.south west)+(2.5em,0)$);
 \end{tikzpicture} 
 
 \ex \label{ex35b}
@@ -243,8 +242,8 @@ With Parallel Agree, we can derive the Agree relation with the single T projecti
 	  ] ] ] ]
 	 ]  
 	] ] ]
-	\draw[dashed, -> ] (T.south) to [bend right=90] (v1.south)  ;
-	\draw[dashed, -> ] (T.south) to [bend right=90] (v2.south);
+	\draw[dashed, -> ] (T.south) to [bend right=90] ($(v1.south west)+(2.5em,0)$);
+	\draw[dashed, -> ] (T.south) to [bend right=90] ($(v2.south west)+(2.5em,0)$);
 \end{tikzpicture}
 
 \z
@@ -264,8 +263,8 @@ With Parallel Agree, we can derive the Agree relation with the single T projecti
 	  ] ] ] ]
 	 ]  
 	] ] ]
-	\draw[dashed, -> ] (T.south) to [bend right=90] (v1.south);
-	\draw[dashed, -> ] (T.south) to [bend right=90] (v2.south);
+	\draw[dashed, -> ] (T.south) to [bend right=90] ($(v1.south west)+(2.5em,0)$);
+	\draw[dashed, -> ] (T.south) to [bend right=90] ($(v2.south west)+(2.5em,0)$);
 \end{tikzpicture} 
 
 \ex \label{ex35b}
@@ -277,8 +276,8 @@ With Parallel Agree, we can derive the Agree relation with the single T projecti
 	  ] ] ] ]
 	 ]  
 	] ] ]
-	\draw[dashed, -> ] (T.south) to [bend right=90] (v1.south)  ;
-	\draw[dashed, -> ] (T.south) to [bend right=90] (v2.south);
+	\draw[dashed, -> ] (T.south) to [bend right=90] ($(v1.south west)+(2.5em,0)$);
+	\draw[dashed, -> ] (T.south) to [bend right=90] ($(v2.south west)+(2.5em,0)$);
 \end{tikzpicture}
 
 \z
@@ -311,7 +310,7 @@ The central claim in this section is that \emph{\`a}- is the spell-out of an inn
 	{} Kofi \textsc{prog}-throw stone  \textsc{fut}-go room PostP\\
 
 \z 
-\z \z Cross-linguistically, aspect is thought to be below T, ( see \citet{Rizzi2004} \citet{Rizzi2013Notes} \todo{\citet{Rizzi2013Notes} or \citet{Rizzi2013Locality}?}a.o, \citet{Cinque2002, Cinque2006}, \citet{RizziCinque2016} \citet{CinqueRizzi2010} a.o). Following \citet{Kandybowicz2010, Kandybowicz2015}, I argue that aspect, in Akan, is merged lower, i.e., within the vP.  However, as a quantifier of events (\citet{Hacquard2006}), aspect is only interpretable above vP; therefore, aspect is not interpreted where it is base-generated in Akan. To solve this apparent mismatch, I argue that there is another aspect projection above vP, where aspect is interpreted. I refer to this projection as outer aspect. Inner aspect is the morphological projection of aspect.\footnote{The idea of two aspect projections in the syntax is a not new, inner aspect is used to refer to lexical aspect/situational aspect while outer aspect to grammatical/viewpoint aspect,(see \citealt{Travis2010, Travis1991, Smith1991, MacDonald2006}). In Tagalog and Navajo, Inner aspect also encodes grammatical aspect (\citet{Travis2010})} Descriptively, Outer aspect and inner aspect are required to be compatible or match. Matching is checked through \textit{Selection/Sel(ect)-Merge}. The proposal is that Outer aspect \textit{selects} for an inner aspect with compatible features. Since Outer aspect and Inner aspect are not sisters, 
+\z \z Cross-linguistically, aspect is thought to be below T, (see \citet{Rizzi2004} \citet{Rizzi2013Notes}, a.o, \citet{Cinque2002, Cinque2006}, \citet{RizziCinque2016} \citet{CinqueRizzi2010} a.o). Following \citet{Kandybowicz2010, Kandybowicz2015}, I argue that aspect, in Akan, is merged lower, i.e., within the vP.  However, as a quantifier of events (\citet{Hacquard2006}), aspect is only interpretable above vP; therefore, aspect is not interpreted where it is base-generated in Akan. To solve this apparent mismatch, I argue that there is another aspect projection above vP, where aspect is interpreted. I refer to this projection as outer aspect. Inner aspect is the morphological projection of aspect.\footnote{The idea of two aspect projections in the syntax is a not new, inner aspect is used to refer to lexical aspect/situational aspect while outer aspect to grammatical/viewpoint aspect,(see \citealt{Travis2010, Travis1991, Smith1991, MacDonald2006}). In Tagalog and Navajo, Inner aspect also encodes grammatical aspect (\citet{Travis2010})} Descriptively, Outer aspect and inner aspect are required to be compatible or match. Matching is checked through \textit{Selection/Sel(ect)-Merge}. The proposal is that Outer aspect \textit{selects} for an inner aspect with compatible features. Since Outer aspect and Inner aspect are not sisters, 
 I assume that aspect features percolate to VoiceP, the sister of Outer aspect, where compatibility is checked. \citegen{Webelhuth1992} percolation principles govern the feature percolation. \nocite{Webelhuth1992}
 \ea \label{ex16}
 \ea If the head of XP is marked for the feature F, then F percolates to the XP. (same as projection of head features to maximal projections in the Minimalist framework)
@@ -345,20 +344,18 @@ For instance, a verb that does not select for a CP complement can take a conjoin
 	  ] ] ]
 	 ] ] ]
 	] ]
-	\draw[dashed,-> ] (100.west) to [bend left=90] (101.west);
+	\draw[dashed,-> ] (100.west) to [bend left=60] (101.west); % ok
 	%\draw[->](100)..controls +(south west:2) and +(west:2)..(101)node[near end, left] {\scriptsize feature percolation};
-	\draw[dashed,-> ] (101.north) to [bend right=90] (102.east);
-	\draw[dashed,-> ] (102.west) to [bend left=45] (V.west);
-	\draw[dashed,-> ] (V.north) to [bend right=45] (105.east);
-	\draw[dashed,-> ] (105.north) to [bend right=45] (110.east);
-    \draw[dashed,-> ] (okk.west) to [bend left=90] (ok.west);
-    \draw[dashed,-> ] (ok.west) to [bend left=45] (vpp.west);
+	\draw[dashed,-> ] ($(101.north east)+(-1em,0)$) to [bend right=60] (102.east); % ok
+	\draw[dashed,-> ] ($(102.north west)+(1.5em,0)$) to [bend left=60] (V.west); % ok
+	\draw[dashed,-> ] ($(V.north east)+(-1.5em,0)$) to [bend right=60] (105.east); % ok
+	\draw[dashed,-> ] ($(105.north east)+(-1.5em,0)$) to [bend right=60] (110.east); % ok
+    \draw[dashed,-> ] (okk.west) to [bend left=60] ($(ok.west)+(0,0.5em)$);
+    \draw[dashed,-> ] ($(ok.north east)+(-1.5em,0)$) to [bend right=60] (vpp.east);
 
 \end{tikzpicture}  
 \end{center}
 This same logic can be used to account for the ungrammaticality of \emph{\`a} in both the *\textbf{V(\`a)} \textbf{V(\`a)} and *\textbf{V(\`a)} \textbf{V(Asp)} sequence. But nothing I have said so far rules out having two overt aspects with interpretation, i.e.,*\textbf{V(Asp)} \textbf{V(Asp)}, though empirically it is ungrammatical. I derived the ungrammaticality of these sequence from an economy of interpretation principle modeled after \cite{Boskovic1997Book}'s minimal structure principle.
-
-\todo[inline]{Please verify that you intend to cite \citet{Boskovic1997Book} and not \citet{Boskovic1997Wh}.}
 
 \ea
 Economy of interpretation\\
@@ -382,34 +379,20 @@ I have argued that tense and aspect have different distributions in these clause
 %Feature percolation of the sort proposed for Akan aspect seems, as is, to pose a potential problem: it leads us to expect arbitrarily long-distance morphological dependencies to be expressed. This problem should be noted, or something should be said to limit the domains in which feature percolation might take place.
 \section*{Abbreviations}
 
-
-\begin{tabular}{l l} 
-PROG  & Progressive \\
-FUT   & Fut \\
-PST   & Past \\
-PostP & Postposition  \\
-PRES  & Present  \\
+\begin{tabular}{@{}ll@{}} 
 CONS  & Consecutive Morpheme  \\
-Cord  & COordinator \\
+Cord  & Coordinator \\
+FUT   & Fut \\
 PERF & Perfect \\
+PostP & Postposition  \\
+PROG  & Progressive \\
+PRES  & Present  \\
+PST   & Past \\
 \end{tabular}
-
-
-
 
 
 \section*{Acknowledgements}
 The chair of my second qualifying paper, Professor Mark Baker and my committee members, Ken Safir and Viviane Deprez help shaped most of the ideas in this paper. I will like to thank the Rutgers Syntax Reading group (STAR), your comments and insights helped improve this paper. I am also grateful to the participants of ACAL 49, your questions and comments were beneficial. I have benefited from the comments and insights of two anonymous reviewers.
 
-
-
-
-
-
-\printbibliography[heading=subbibliography,notkeyword=this]
-
+{\sloppy\printbibliography[heading=subbibliography,notkeyword=this]}
 \end{document}
-
-
-
- 

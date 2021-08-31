@@ -2,12 +2,9 @@
 
 \title{Unifying prolepsis and cross-clausal cliticization in Lubukusu}
 
-\author{Lydia Newkirk\affiliation{Rutgers University}
-}
+\author{Lydia Newkirk\affiliation{Rutgers University}}
 
-\abstract{
-This paper examines proleptic constructions in Lubukusu (Bantu, Western Kenya). I find that Lubukusu has two distinct strategies for prolepsis: one where the extra matrix nominal is base-generated high, and one where the nominal moves from the embedded clause to the matrix position. The latter is subject to island effects, whereas the former is not. I propose an analysis for these two kinds of prolepsis based on these facts, dependant on the particularities of what nominals can be licensed in what syntactic positions in Lubukusu, and explore the cross-linguistic implications of this analysis.
-}
+\abstract{This paper examines proleptic constructions in Lubukusu (Bantu, Western Kenya). I find that Lubukusu has two distinct strategies for prolepsis: one where the extra matrix nominal is base-generated high, and one where the nominal moves from the embedded clause to the matrix position. The latter is subject to island effects, whereas the former is not. I propose an analysis for these two kinds of prolepsis based on these facts, dependant on the particularities of what nominals can be licensed in what syntactic positions in Lubukusu, and explore the cross-linguistic implications of this analysis.}
 
 \IfFileExists{../localcommands.tex}{%hack to check whether this is being compiled as part of a collection or standalone
   \addbibresource{localbibliography.bib}
@@ -17,6 +14,7 @@ This paper examines proleptic constructions in Lubukusu (Bantu, Western Kenya). 
 }{}
 
 \begin{document}
+\SetupAffiliations{mark style=none}
 \maketitle
 
 \section{Background}\label{sec:newkirk:1}
@@ -117,7 +115,7 @@ In Lubukusu there are three ways to license a proleptic object: first, a prolept
 	\gll    John a-subil-a \alert{khu} \alert{Bill}\ix{i} a-li \alert{o-mu-eene}\ix{i}/\alert{niye}\ix{i} a-li o-mu-miliyu.\\
 			John \textsc{sm.c1-}believe\textsc{-fv} \textsc{prep} Bill \textsc{c1-}that \textsc{c1-c1-}own/him \textsc{c1-}be \textsc{c1-c1-}smart\\
 	\glt    `John believes of Bill\ix{i} that he\ix{i} is smart/clean.' 
-	        \hfill (Lubukusu)\todo{Redundant}
+	        \hfill (Lubukusu)
 \z
 
 \ea%11
@@ -317,8 +315,6 @@ On this analysis, \REF{ex:newkirk:14} has the preliminary structure in \REF{ex:n
 		    Jack \textsc{sm.c1-refl-}knows\textsc{-tns-fv} \textsc{c1-}that George \textsc{sm.c1-om.c1-}like\textsc{-fv} \textsc{c1-c1-}own\\
 	\glt    `Jack\ix{i} knows that George likes him\ix{i}.'}
 \end{exe}
-
-\todo[inline]{The trees may need resizing for better accessibility.}
 
 \ea%32
     \label{ex:newkirk:32}
@@ -731,9 +727,7 @@ Turning our attention to other languages, we can see that the difference between
 	\z
 \z
 
-\todo[inline]{Please check the gloss for the word \textit{mûpishtâshkuenit} above.}
-
-For Middle Dutch the matrix nominal is licensed by case marking, but on the analysis \todo{...by...? ...of...?}\citet{VanKoppenEtAl2016} it's in spec,CP, although it hasn't been moved there. In German, prolepsis often feeds further movement that would otherwise be degraded \citep{Salzmann2017Chapter}.
+For Middle Dutch the matrix nominal is licensed by case marking, but on the analysis \citep{VanKoppenEtAl2016} it's in spec,CP, although it hasn't been moved there. In German, prolepsis often feeds further movement that would otherwise be degraded \citep{Salzmann2017Chapter}.
 
 % \bex
 % 	\ex[]{\gll Von [\alert{welchem} \alert{Maler}]\ix{i} glaubst du, dass Maria \alert{ihn}\ix{i} mag?\\
@@ -746,25 +740,21 @@ If prolepsis is used when A$'$-movement is degraded, then it comes as no surpris
 These considerations bring to the fore an important distinction between semantic and syntactic licensing. Semantically, the evaluated object head provides a viable semantic interpretation for the extra matrix nominal, so long as the context supports that interpretation. Thus the left periphery is identical in both types of structure. The syntactic licensing requirements, however, differ by construction (and by language), as independently established. It is precisely these syntactic facts that derive the differences between prolepsis types.
 
 \section*{Abbreviations}
-\begin{tabularx}{.45\textwidth}{QQ}
+\begin{tabularx}{.5\textwidth}{@{}lQ}
 {\textsc{appl}}  &  applicative\\
  {c} followed by a number  &  noun class marker\\
  {\textsc{fv}}  &  Final vowel\\
  {\textsc{om}}  &  Object Marker (typically followed by noun class number)\\
- \end{tabularx}
-\begin{tabularx}{.45\textwidth}{lQ}
+ \end{tabularx}\begin{tabularx}{.5\textwidth}{lQ@{}}
  {\textsc{prep}}  &  Preposition\\
  {\textsc{refl}}  &  Reflexive Marker\\
  {\textsc{sm}}  &  Subject Marker (typically followed by noun class number)\\
  {\textsc{tns}}  &  Tense
 \end{tabularx}
 
-\todo[inline]{\textsc{caus}, \textsc{inv}, and \textsc{ti} can be added as well.}
-
 \section*{Acknowledgements}
 Special thanks to Justine Sikuku, Ken Safir, Mark Baker, Vivian Deprez, and the attendees of Rutgers ST@R and SURGE reading groups. Some of the data for this project are from the Afranaph Project (NSF BCS 1324404). I am indebted to two anonymous reviewers for their helpful comments. Any remaining errors are my own.% Those sentences are marked with an Afranaph ID for access on the Afranaph database (\url{http://www.africananaphora.rutgers.edu/}).
 
-\nocite{SafirSikuku2011}
-\printbibliography[heading=subbibliography,notkeyword=this]
+{\sloppy\printbibliography[heading=subbibliography,notkeyword=this]}
 
 \end{document}

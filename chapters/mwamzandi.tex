@@ -11,6 +11,7 @@
 }{}
 
 \begin{document}
+\SetupAffiliations{mark style=none}
 \maketitle 
 
 \section{Introduction}\label{sec:mwamzandi:1}
@@ -132,9 +133,7 @@ In Swahili, it has been claimed that the \textit{amba} RC is preferred if the RC
     \glt    ‘Boxes which two or three of us cannot lift.’ \hfill \citep[310]{Ashton1944}
 \z
 
-Following \citegen{KeenanComrie1977} Accessibility Hierarchy of relativization, it has been claimed that the \textit{amba} RC in \REF{ex:mwamzandi:12} is preferred  instead of the tensed RC in \REF{ex:mwamzandi:13} since the relativized NP is the object (which is higher in the Accessibility Hierarchy than the subject). Based on the dataset used in this study, I argue that the choice of the \textit{amba} RM in \REF{ex:mwamzandi:12} is influenced by the length of the RC rather than the position of the head noun in the Accessibility Hierarchy. Notice that the RC in \REF{ex:mwamzandi:12} contains two clauses with 8 words. The \textit{amba} relative clause may be used by the speaker to “compensate for (perceived) difficulties in producing or parsing” long relative clauses, whether subject or object RCs \citep[133]{Green2008}\todo{Missing}
-
-\todo[inline]{There is only \citet{Green1996} and \citet{Green1997} in the bibliography}.
+Following \citegen{KeenanComrie1977} Accessibility Hierarchy of relativization, it has been claimed that the \textit{amba} RC in \REF{ex:mwamzandi:12} is preferred  instead of the tensed RC in \REF{ex:mwamzandi:13} since the relativized NP is the object (which is higher in the Accessibility Hierarchy than the subject). Based on the dataset used in this study, I argue that the choice of the \textit{amba} RM in \REF{ex:mwamzandi:12} is influenced by the length of the RC rather than the position of the head noun in the Accessibility Hierarchy. Notice that the RC in \REF{ex:mwamzandi:12} contains two clauses with 8 words. The \textit{amba} relative clause may be used by the speaker to “compensate for (perceived) difficulties in producing or parsing” long relative clauses, whether subject or object RCs \citep[133]{Green2008}.
 
 In these syntactic studies on Swahili RC, the structural differences/similarities are the focus and their usage by speakers regarded as a case of free variation. However, a combination of pragmatic factors such as preference for the tensed RC in restrictive RCs, length of the RCs, and information structure considerations may better explain the choice of one of the RC variants in natural language.
 
@@ -158,46 +157,46 @@ If the variation of the \textit{amba} and tensed RCs is due to the restrictive a
     \label{fig:mwamzandi:1}
 \end{figure}
 
-\todo[inline]{Please provide the exact numbers so the image can be replaced with the Ti\textit{k}Z plot. Then change the label of the pgfplot from fig:mwamzandi:2 to fig:mwamzandi:1}
-
-\begin{figure}
-\pgfplotstableread{
-1 30    120
-2 245   40
-}\dataset
-\begin{tikzpicture}
-\begin{axis}[ybar,
-        width=.8\textwidth,
-        height=.3\textheight,
-        ymin=0,
-        ymax=300,
-        ylabel={},
-        %xlabel={Restrictive/Non-restrictive clauses},
-        xlabel style = {yshift=-8mm},
-        xtick=data,
-        bar width=1cm,
-        enlarge x limits=1.2,
-        nodes near coords,
-        nodes near coords style={font=\footnotesize},
-        legend cell align=left,
-        legend style={font=\footnotesize},
-        xticklabels = {
-            amba,
-            tensed
-        },
-      axis y line*=left,
-      axis x line*=bottom,
-        x tick label style={align=center,text width=2cm},
-        ticklabel style = {font=\footnotesize},
-        ]
-\addplot[draw=black,fill=lsMidDarkBlue] table[x index=0,y index=1] \dataset; 
-\addplot[draw=black,fill=lsNightBlue] table[x index=0,y index=2] \dataset; 
-\legend{Restrictive,Non-restrictive}
-\end{axis}
-\end{tikzpicture}
-    \caption{amba and tensed restrictive and non-restrictive clauses}
-    \label{fig:mwamzandi:2} %!!!!
-\end{figure}
+% % % \todo[inline]{Please provide the exact numbers so the image can be replaced with the Ti\textit{k}Z plot. Then change the label of the pgfplot from fig:mwamzandi:2 to fig:mwamzandi:1}
+% % % 
+% % % \begin{figure}
+% % % \pgfplotstableread{
+% % % 1 30    120
+% % % 2 245   40
+% % % }\dataset
+% % % \begin{tikzpicture}
+% % % \begin{axis}[ybar,
+% % %         width=.8\textwidth,
+% % %         height=.3\textheight,
+% % %         ymin=0,
+% % %         ymax=300,
+% % %         ylabel={},
+% % %         %xlabel={Restrictive/Non-restrictive clauses},
+% % %         xlabel style = {yshift=-8mm},
+% % %         xtick=data,
+% % %         bar width=1cm,
+% % %         enlarge x limits=1.2,
+% % %         nodes near coords,
+% % %         nodes near coords style={font=\footnotesize},
+% % %         legend cell align=left,
+% % %         legend style={font=\footnotesize},
+% % %         xticklabels = {
+% % %             amba,
+% % %             tensed
+% % %         },
+% % %       axis y line*=left,
+% % %       axis x line*=bottom,
+% % %         x tick label style={align=center,text width=2cm},
+% % %         ticklabel style = {font=\footnotesize},
+% % %         ]
+% % % \addplot[draw=black,fill=lsMidDarkBlue] table[x index=0,y index=1] \dataset; 
+% % % \addplot[draw=black,fill=lsNightBlue] table[x index=0,y index=2] \dataset; 
+% % % \legend{Restrictive,Non-restrictive}
+% % % \end{axis}
+% % % \end{tikzpicture}
+% % %     \caption{amba and tensed restrictive and non-restrictive clauses}
+% % %     \label{fig:mwamzandi:2} %!!!!
+% % % \end{figure}
 
 A Chi-squared test shows that the frequency differences between the restrictive and non-restrictive clauses for the \textit{amba} and tensed RCs is significant X2 (1, N=440) = 180.89, p < .001. The implication is that the tensed RC is used more frequently as restrictive while the \textit{amba} RC is used more frequently as non-restrictive. I present an example of a tensed restrictive RC in \REF{ex:mwamzandi:14}.
 
@@ -332,7 +331,7 @@ In \REF{ex:mwamzandi:21}, the \textit{amba} RC must be used because of the front
 
 \subsection{Effect of grammatical role and topic}\label{sec:mwamzandi:4.3}
 
-I claim that in addition to the restrictiveness and RC length, the use of the \textit{amba}/tensed RC may also be influenced by information structure considerations. Information structure, a term originally introduced by \citet{Halliday1967}, deals with formal properties of semantically equivalent but pragmatically divergent propositions in their textual environment \citep{Lambrecht1994}. The notion of topic, defined as what the sentence is about, has a role in the choice of Swahili RC constructions. Under information structure, utterances are organized into two parts. In the unmarked form, the first part, the topic, is given or presupposed information while the second part, comment, the predicate and its internal argument(s) and adjunct(s) is the new or informative part of the utterance (\citealt{Prince1981, Prince1992, GundelFretheim2006}). To investigate the role of grammatical role and topic in the variation of the tensed and \textit{amba} RCs, I coded the relativization of the head noun (subject/object/prepositional phrase (PP)). Based on its grammatical role and other contextual clues including pronominalization and referential chain (previous or later mention), the head noun was coded as topic/non-topic. This was possible because each utterance has exactly one topic which is the most salient member of the referents realized as pronoun, explicit referring expression, zero or “inferred” (as used by \citealt{Prince1981}). Salience “defines the degree of relative prominence of a unit of information, at a specific point in time, in comparison to other units of information” \citep{ChiarcosEtAl2011Salience}. The concept of topic as the most salient entity of an utterance is illustrated in \REF{ex:mwamzandi:25}.
+I claim that in addition to the restrictiveness and RC length, the use of the \textit{amba}\slash tensed RC may also be influenced by information structure considerations. Information structure, a term originally introduced by \citet{Halliday1967}, deals with formal properties of semantically equivalent but pragmatically divergent propositions in their textual environment \citep{Lambrecht1994}. The notion of topic, defined as what the sentence is about, has a role in the choice of Swahili RC constructions. Under information structure, utterances are organized into two parts. In the unmarked form, the first part, the topic, is given or presupposed information while the second part, comment, the predicate and its internal argument(s) and adjunct(s) is the new or informative part of the utterance (\citealt{Prince1981, Prince1992, GundelFretheim2006}). To investigate the role of grammatical role and topic in the variation of the tensed and \textit{amba} RCs, I coded the relativization of the head noun (subject/object/prepositional phrase (PP)). Based on its grammatical role and other contextual clues including pronominalization and referential chain (previous or later mention), the head noun was coded as topic/non-topic. This was possible because each utterance has exactly one topic which is the most salient member of the referents realized as pronoun, explicit referring expression, zero or “inferred” (as used by \citealt{Prince1981}). Salience “defines the degree of relative prominence of a unit of information, at a specific point in time, in comparison to other units of information” \citep{ChiarcosEtAl2011Salience}. The concept of topic as the most salient entity of an utterance is illustrated in \REF{ex:mwamzandi:25}.
 
 \ea%25
     \label{ex:mwamzandi:25}
@@ -365,7 +364,7 @@ A restrictive clause is analyzed as a modifier of the head noun and therefore an
     \glt    ‘Adili broke the command he was given.’
 \z
 
-\todo[inline]{Isn't the form \textit{given} in the gloss due to the \textsc{pass} morpheme? Shouldn't it be \textit{give}?}
+% % % \todo[inline]{Isn't the form \textit{given} in the gloss due to the \textsc{pass} morpheme? Shouldn't it be \textit{give}?}
 
 In \REF{ex:mwamzandi:26}, the head noun \textit{amri} is the object of the matrix clause and together with the RC is an internal argument of the verb \textit{vunja} ‘break’. The topic of the matrix clause is the subject NP \textit{Adili} in the left periphery. The occurrence of the NP \textit{Adili} as a pronominal subject marker prefix within the RC provides further evidence for the topic status of the NP \textit{Adili}. In instances with no topic shift such as \REF{ex:mwamzandi:25} and \REF{ex:mwamzandi:26}, the tensed RC is more frequently used regardless of the grammatical role of the head noun. In both instances, the head noun is the object of the RC, an RC that is predicted to be complex by the Accessibility Hierarchy (\citealt{KeenanComrie1977}) and therefore the \textit{amba} RC more appropriate due to its simplification effects (\citealt{Ashton1944, Schadeberg1989}). Notice that the length of the tensed RCs in \REF{ex:mwamzandi:25} and \REF{ex:mwamzandi:26} are short (one word long with no subordination or coordination). I argue that the use of the tensed clause instead of the \textit{amba} RC is due to the length of the RCs as explained in \sectref{sec:mwamzandi:4.2} and the information status of the head noun.
 
@@ -391,7 +390,7 @@ In \REF{ex:mwamzandi:26}, the head noun \textit{amri} is the object of the matri
     \label{tab:mwamzandi:2}
 \end{table}
 
-The frequency of head NPs that were the topic of the matrix clause and were continued as the topic of the tensed RCs was higher (70) than that of head nouns that were topics in the matrix clause as well as the \textit{amba} RCs (28). The frequency difference is significant, X\textsuperscript{2} (1,N=98)=18, p<0.001. Example \REF{ex:mwamzandi:27} shows a tensed RC whose head noun is the topic of the matrix clause as well as the RC.
+The frequency of head NPs that were the topic of the matrix clause and were continued as the topic of the tensed RCs was higher (70) than that of head nouns that were topics in the matrix clause as well as the \textit{amba} RCs (28). The frequency difference is significant, $\chi^2 (1,N=98)=18, p<0.001$. Example \REF{ex:mwamzandi:27} shows a tensed RC whose head noun is the topic of the matrix clause as well as the RC.
 
 \ea%27
     \label{ex:mwamzandi:27}
@@ -422,7 +421,7 @@ In \REF{ex:mwamzandi:28}, there are four clauses numbered 1--4. The topic of cla
 
 In \REF{ex:mwamzandi:29}, \textit{Bikiza} is the object of the matrix clause but the topic of the tensed RC. I mentioned earlier that the tensed non-restrictive RC occur in contexts where the head noun is a proper noun. This may explain the choice of the tensed RC here, but I should reiterate that the pragmatic explanations in this study are not absolute. Of course, they are statistical tendencies that cannot be attributed to chance.
 
-41 head nouns occurring as PP complements within the subject/object NP of the matrix clause were RC topics while 68 were non-topics. The frequency difference between the \textit{amba} and tensed RCs when the head NP was topic was insignificant, p>0.05. However, the frequency difference in non-topic head nouns was significant X\textsuperscript{2} (1,N=77)=31, p<0.001). In \REF{ex:mwamzandi:30}, the \textit{amba} RC is used in shift transitions, that is, the head noun is not the topic of the matrix clause but is the topic of the RC.
+41 head nouns occurring as PP complements within the subject/object NP of the matrix clause were RC topics while 68 were non-topics. The frequency difference between the \textit{amba} and tensed RCs when the head NP was topic was insignificant, p>0.05. However, the frequency difference in non-topic head nouns was significant ($\chi^2 (1,N=77)=31, p<0.001$). In \REF{ex:mwamzandi:30}, the \textit{amba} RC is used in shift transitions, that is, the head noun is not the topic of the matrix clause but is the topic of the RC.
 
 \ea%30
     \label{ex:mwamzandi:30}
@@ -458,20 +457,31 @@ A combination of factors including restrictive/nonrestrictive use of the RC, len
 Helsinki Corpus of Swahili 2.0 (HCS 2.0). 2014-05-09. User support at CSC -- IT Center for Science Ltd. The Language Bank of Finland (distributor). Etsin research data finder, 2018. http://urn.fi/urn:nbn:fi:lb-2014032624
 
 \section*{Abbreviations}
+\begin{multicols}{2}
+\begin{tabbing}
+Numbers  \hspace{1ex} \= Noun class   \kill
+\textsc{agr}   \> Agreement    \\ 
+\textsc{appl}  \> Applicative  \\ 
+\textsc{aux}   \> Auxiliary    \\ 
+\textsc{fut}   \> Future tense \\ 
+\textsc{fv}    \> Final vowel  \\ 
+\textsc{inf}   \> Infinitive   \\ 
+\textsc{pfv}   \> Perfective   \\ 
+\textsc{prog}  \> Progressive  \\ 
+Numbers        \> Noun class   \\ 
+\textsc{om}    \> Object Marker\\ 
+\textsc{orm}   \> Object relative marker\\
+\textsc{pass}  \> Passive\\
+\textsc{prs}   \> Present tense\\
+\textsc{pst}   \> Past tense\\
+\textsc{recp}  \> Reciprocal\\
+\textsc{refl}  \> Reflexive\\
+\textsc{sbjv}  \> Subjunctive\\
+\textsc{sm}    \> Subject marker\\
+\textsc{srm}   \> Subject relative Mark\\
+\textsc{stv}   \> Stative
+\end{tabbing}
+\end{multicols}
 
-\begin{table}
-    \begin{tabular}{llll}
-         \textsc{agr}   & Agreement     & \textsc{orm}  & Object relative marker\\
-         \textsc{appl}  & Applicative   & \textsc{pass} & Passive\\
-         \textsc{aux}   & Auxiliary     & \textsc{prs}  & Present tense\\
-         \textsc{fut}   & Future tense  & \textsc{pst}  & Past tense\\
-         \textsc{fv}    & Final vowel   & \textsc{recp} & Reciprocal\\
-         \textsc{inf}   & Infinitive    & \textsc{refl} & Reflexive\\
-         \textsc{pfv}   & Perfective    & \textsc{sbjv} & Subjunctive\\
-         \textsc{prog}  & Progressive   & \textsc{sm}   & Subject marker\\
-         Numbers        & Noun class    & \textsc{srm}  & Subject relative Mark\\
-         \textsc{om}    & Object Marker & \textsc{stv}  & Stative\\
-    \end{tabular}
-\end{table}
-
-\sloppy\printbibliography[heading=subbibliography,notkeyword=this]\end{document} 
+{\sloppy\printbibliography[heading=subbibliography,notkeyword=this]}
+\end{document} 
