@@ -85,7 +85,7 @@
 \newcommand{\lsBookDOI}{??}
 \newcommand{\lsChapterDOI}{??}
 \newcommand{\lsID}{000}
-\newcommand{\lsURL}{http://langsci-press.org/catalog/book/\lsID}
+\newcommand{\lsURL}{redefine \textbackslash lsURL}
 \newcommand{\lsSeries}{eotms}
 \newcommand{\lsOutput}{book}
 \newcommand{\lsBookLanguage}{english}
@@ -1103,6 +1103,9 @@
   {%
     \AtBeginDocument
       {%
+        \bgroup
+        \renewcommand{\newlineCover}{}
+        \renewcommand{\newlineSpine}{}
         \newwrite\metadatafile
         \immediate\openout\metadatafile=langscitmp.bib
         \immediate\write\metadatafile{%
@@ -1121,6 +1124,7 @@
           }
         }
         \immediate\closeout\metadatafile
+        \egroup
         \addbibresource{langscitmp.bib}
       }
   }
@@ -1135,17 +1139,12 @@
 \newcommand{\lsImpressumExtra}{}%for legal notes required for revised theses ("... in fulfillment of ... ")
 
 \newcommand{\publisherstreetaddress}
-  {%
-    Language Science Press\\
-    xHain\\
-    Grünberger Str. 16\\
-    10243 Berlin, Germany
-  }
+  {redefine \textbackslash publisherstreetaddress}
 
-\newcommand{\publisherurl}{\href{http://langsci-press.org}{langsci-press.org}}
-\newcommand{\storageinstitution}{FU Berlin}
-\newcommand{\githubtext}{Source code available from \href{https://www.github.com/langsci/\lsID}{www.github.com/langsci/\lsID}}
-\newcommand{\paperhivetext}{Collaborative~reading:~\href{https://paperhive.org/documents/remote?type=langsci&id=\lsID}{paperhive.org/documents/remote?type=langsci\&id=\lsID}}
+\newcommand{\publisherurl}{redefine \textbackslash publisherurl}
+\newcommand{\storageinstitution}{redefine \textbackslash storageinstitution}
+\newcommand{\githubtext}{}
+\newcommand{\paperhivetext}{}
 
 \newcommand{\lsImpressum}{%
 \thispagestyle{empty}
@@ -1279,7 +1278,6 @@ Storage and cataloguing done by \storageinstitution\\[3ex]
 % publication, and does not guarantee that any content on such websites
 % is, or will remain, accurate or appropriate.
 }
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    Dedication
