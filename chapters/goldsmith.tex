@@ -71,9 +71,9 @@ From this we draw the conclusion that it is possible to learn Swahili morphology
 
 But how exactly do the students do this? If we say they just use common sense, that is certainly true, but common sense is notoriously difficult to analyze. Furthermore, there is every reason to believe that this particular task is part of the language-learning capacity, so we have a very real professional interest in puzzling out exactly what this learning process is. It is for this reason that we began to develop an algorithm that learns the morphological structure of words, but with no access to meaning. In fact, we have developed several different approaches (and we are still looking for the best one), all of which we put under the umbrella name \textit{Linguistica} \citep{Goldsmith2001,Goldsmith2006,Goldsmith2010}.
 
-How well can an automatic morphology analyzer deal with Swahili today? It has a long way to go before we can see it as comparable to a freshman taking a linguistics course using common sense. Still, there is a lot that it does right -- which is to say, there are a lot of linguistic generalizations that it does observe. While there are interesting and complex matters of morphophonology in Swahili (loss of a vowel before another vowel, $ky$ becoming $ch$, etc.) we can approach the problem of morphology before solving problems of morphophonology. What Swahili offers is a large range of affixes of similar sizes, and it is quite a challenge for an algorithm to break down a word into morphemes.
+How well can an automatic morphology analyzer deal with Swahili today? It has a long way to go before we can see it as comparable to a freshman taking a linguistics course using common sense. Still, there is a lot that it does right -- which is to say, there are a lot of linguistic generalizations that it does observe. While there are interesting and complex matters of morphophonology in Swahili (loss of a vowel before another vowel, \textit{ky} becoming \textit{ch}, etc.) we can approach the problem of morphology before solving problems of morphophonology. What Swahili offers is a large range of affixes of similar sizes, and it is quite a challenge for an algorithm to break down a word into morphemes.
 
-The present paper offers an overview of how Linguistica analyzes Swahili words. Its value at this point is not that it does a better job of analysis than a human, but rather that it can do a careful study of the morphology of a text so that we can ourselves more easily discover what it is that we are looking at. Linguistica serves as a tool to let us better understand what the data are that we are looking at when we explore a language on a large scale.
+The present paper offers an overview of how Linguistica analyzes Swahili words. Its value at this point is not that it does a better job of analysis than a human, but rather that it can do a careful study of the morphology of a text so that we can ourselves more easily discover what it is that we are looking at. Linguistica serves as a tool to let us better understand what the data are that we are looking at when we explore a language on a large scale.\largerpage
 
 We believe that this work will be of interest to readers in different categories. For the linguist who knows Swahili, the results are interesting because such a linguist sees what can be learned in an explicit procedure of this sort. For such a linguist, Linguistica really serves as a microscope through which the details of the language emerge -- almost visually. For the linguist interested in morphology, the work is of interest for what it says about the linguistic analysis of morphemes. The central operation here is -- so to speak -- \textit{split}; the challenge for language learning is finding the pieces that the grammar of language organizes. One way to say this is that we are figuring out where a language-learner performs a ``split'' operation, turning an unanalyzed string into its component pieces. \textit{Split}, in this sense, is the flip-side to the process of \textit{Merge}, so much discussed in the current literature. \textit{Merge} makes sense only once we have developed the broad strokes of the rule of \textit{Split}!
 
@@ -92,7 +92,7 @@ The SALAMA project developed the linguistic resources that made this work possib
 %COMMENTED BY AUTHORS De Pauw and de Schryver 2008. They describe a range of projects on Bantu languages, including work on Northern Sotho, Zulu, Xhosda Swazi and Tswana. Smaller projects on Shona, Ndebele, Kwanyama and Rwanda. Also Kimmo-style systems for Gusii and Swahili. SALAMA presented by Hurskainen 1992, 1996, 2004, used to parse the Helsinki Corpus of Swahili (HCS, Hurskainen 2004a).  Two web-based interfaces: Kamusi Project and the ONline Swahili-English Dictionary. 
 
 
-Several efforts have included ``data-driven'' learning, including  \citet{DePauwEtAl2006} on Swahili, \citet{DeSchryverDePauw2007} on  Northern Sotho. Unsupervised learning is discussed for  Luo (Nilotic) \citet{de2007unsupervised},  and for Gikuyu \citet{DePauwWagacha2007}. \citet{Linden2008} discusses semi-supervised lemmatization of Swahili.
+Several efforts have included ``data-driven'' learning, including  \citet{DePauwEtAl2006} on Swahili, \citet{DeSchryverDePauw2007} on  Northern Sotho. Unsupervised learning is discussed for  Luo (Nilotic) in \citet{DePauw2010},  and for Gikuyu \citep{DePauwWagacha2007}. \citet{Linden2008} discusses semi-supervised lemmatization of Swahili.
    
 
 \section{What is a morphological analysis?}
@@ -405,16 +405,16 @@ $N$ affixes  & $N$ signatures & \multicolumn{8}{l}{Stem counts in  individual si
 \begin{sidewaystable}
 \begin{tabular}{lllllllllllllllllll}\lsptoprule
 Rank& Stem count & \multicolumn{15}{c}{Signatures} \\ \midrule
-1 & 45 & NULL & a &  i &  ki &  ku &  li &  m &  ni  &&  tu &  u &  vi &  wa &  ya &  zi \\
-2 & 56 & NULL & a &  i &  ki &  ku &  li &  m &  ni &   & &  u &  vi &  wa & ya  &  zi   \\
+1 & 45 & ∅ & a &  i &  ki &  ku &  li &  m &  ni  &&  tu &  u &  vi &  wa &  ya &  zi \\
+2 & 56 & ∅ & a &  i &  ki &  ku &  li &  m &  ni &   & &  u &  vi &  wa & ya  &  zi   \\
 3 & 38 &      & a &  i &  ki &  ku &  li &  m &  ni  &&  tu &  u &  vi &  wa &  ya &  zi \\
-4 & 33 &  NULL & a &  i &  ki &  &  li &  m &  ni &   &  tu &  u &  vi &  wa &  ya &  zi  \\
-5 & 3  & NULL & a &  i &  ki &  ku &  li &  m &  ni &   &  tu &  u &  vi &  wa &    &  zi\\
-6 & 3 & NULL & a &  i &  ki &  ku &  li &  m &  ni &  &  tu &  u &   &  wa &  ya &  zi  \\
+4 & 33 &  ∅ & a &  i &  ki &  &  li &  m &  ni &   &  tu &  u &  vi &  wa &  ya &  zi  \\
+5 & 3  & ∅ & a &  i &  ki &  ku &  li &  m &  ni &   &  tu &  u &  vi &  wa &    &  zi\\
+6 & 3 & ∅ & a &  i &  ki &  ku &  li &  m &  ni &  &  tu &  u &   &  wa &  ya &  zi  \\
 7 & 70 &    & a &  i &  ki &  ku &  li &  m &  ni  &&    &  u &  vi &  wa &  ya &  zi  \\
 8 & 52 &   & a &  i &  ki &   &  li &  m &  ni &  &  tu  &  u &  vi &  wa &  ya &  zi  \\
-9 & 51 & NULL & a &  i &  ki &   &  li & m &  ni &   &   &  u &  vi &  wa &  ya &  zi\\
-10 & 28  & NULL & a &  i &  ki &   &  li &   & ni  &   &  tu &  u &  vi &  wa &  ya &  zi\\
+9 & 51 & ∅ & a &  i &  ki &   &  li & m &  ni &   &   &  u &  vi &  wa &  ya &  zi\\
+10 & 28  & ∅ & a &  i &  ki &   &  li &   & ni  &   &  tu &  u &  vi &  wa &  ya &  zi\\
 11 & 26 & & a &  i &  ki & ku  &  li &    &  ni &   &  tu &  u &  vi &  wa &  ya &  zi \\
 17 &  30 &  & a &  i &  ki &  ku &  li &   &    & pa &    &  u &  vi &  wa &  ya &  zi \\
 719  & 191 && a &i &&&&&&&&u &&wa  \\  \lspbottomrule
@@ -561,7 +561,7 @@ napaswa &    naanza &      naleta &     naifanya \\
 It is striking that the parastems in \tabref{2ndsignatureparastemsalphabetized} are composed of a small number of morphemes reused in different combinations, a good deal more so than was seen in \tabref{stems-alphabetized-1}. In \tabref{2ndsignatureparastemsalphabetized}, there are 56 parastems, and all but 4 begin with one of the 5 tense markers \textit{ka, ki, li, me, na} (see \tabref{TMs}). Linguistica has not yet identified those as a class of morphemes -- that will have to await the second iteration -- but the natural goal for the learner is to find a way to identify subclasses of data that are going to be easier to analyze than the entire vocabulary taken as a whole.  A number of roots are reused a good deal; these are the high frequency roots of the language, often used as auxiliary verbs in certain respects: \textit{-baki-} `stay': 4, \textit{-anz-} `start': 4, \textit{-ingi-} `enter': 4, \textit{-fany-} `do, make': 5. (We emphasize here that the apparent identification of the prefixes in this table was done by us, not by Linguistica.) 
 
 
-Let us take a step back. The top signature, as we sort by number of affixes, is the signature with 14 noun class prefixes plus the null prefix, and it does not include the locative prefix \textit{pa-}, which does not appear until the 23rd signature, which is \textit{a-i-ki-ku-li-pa-u-vi-wa-ya-zi}, with 30 stems.  As we go down the list of signatures, as they get shorter (i.e., we go down a list of signatures which is sorted by the number of class prefixes contained), we have to wait until signatures 355 and 356 (\textit{$\emptyset$-al-k-l-z} and \textit{$\emptyset$-ha-k-n-z}) till we find anything else. \textit{$\emptyset$-al-k-l-z} is, to be sure, an error,\footnote{It wrongly places an $i$ in the stem which should be in the prefixes.} and \textit{$\emptyset$-ha-k-n-z} is an error as well,\footnote{Again, it wrongly places an $i$ in the stem.} but it has the first occurrence of the principal negative prefix \textit{ha}. The next 138 signatures are various subsets of the class prefixes, and then the next three signatures consist of two errors and the first significant appearance of the negative form of the verb. These three signatures are \textit{$\emptyset$-al-l-v}; \textit{$\emptyset$-h-k-t} (both errors)--and \textit{$\emptyset$-ha-hawa-si}, which has 172 parastems associated with it. Let us look at this negative signature.
+Let us take a step back. The top signature, as we sort by number of affixes, is the signature with 14 noun class prefixes plus the null prefix, and it does not include the locative prefix \textit{pa-}, which does not appear until the 23rd signature, which is \textit{a-i-ki-ku-li-pa-u-vi-wa-ya-zi}, with 30 stems.  As we go down the list of signatures, as they get shorter (i.e., we go down a list of signatures which is sorted by the number of class prefixes contained), we have to wait until signatures 355 and 356 (\textit{$\emptyset$-al-k-l-z} and \textit{$\emptyset$-ha-k-n-z}) till we find anything else. \textit{$\emptyset$-al-k-l-z} is, to be sure, an error,\footnote{It wrongly places an $i$ in the stem which should be in the prefixes.} and \textit{$\emptyset$-ha-k-n-z} is an error as well,\footnote{Again, it wrongly places an $i$ in the stem.} but it has the first occurrence of the principal negative prefix \textit{ha}. The next 138 signatures are various subsets of the class prefixes, and then the next three signatures consist of two errors and the first significant appearance of the negative form of the verb. These three signatures are \textit{$\emptyset$-al-l-v}; \textit{$\emptyset$-h-k-t} (both errors) -- and \textit{$\emptyset$-ha-hawa-si}, which has 172 parastems associated with it. Let us look at this negative signature.
  
 \subsection{More on parastems}
 
@@ -798,28 +798,27 @@ analysis, which really {\itshape should} be what is shown in \tabref{finalsigs2}
 
  
 \begin{table}
-\begin{tabular}{*{14}{l}}
-\lsptoprule
-an & $\to$ &$\emptyset$ &-& i &                   ki  & $\to$ &a  &-&   wa  \\
-an & $\to$ & a&-& ia  &                           li  & $\to$ &a  &-&   wa \\
-an & $\to$ & a&-& \multicolumn{2}{l}{ishwa}  &    mi  & $\to$ &a   &-&  wa \\
-bish & $\to$ &  a&-& wa &                         ng  & $\to$ &a  &-&   wa  \\
-ele  & $\to$ &a&-& za &                           sh  & $\to$ &a  &-&   na &-&  wa  \\
-esh  & $\to$ &a&-& ea &                           sh  & $\to$ &a  &-&   e  \\
-esh  & $\to$ &a &-& ewa &-& wa &                  sh  & $\to$ &a   &-&  ia  &-& wa \\
-esh  & $\to$ &a&-& wa  &                          sh  & $\to$ &a   &-&  iwa \\
-ez  & $\to$ &a&-& wa &                            sh  & $\to$ &a   &-&  iwa &-&  wa  \\	
-ik  & $\to$ &a&-& ia  &                           sh  & $\to$ &a  &-&   wa \\
-ili  & $\to$ &a &-&wa &                           ti  & $\to$ &a  &-&   lia \\
-ish   & $\to$ &a &-&ia  &                         ti  & $\to$ &a  &-&   wa \\
-ish  & $\to$ &a &-&iwa  &                         uk  & $\to$ &a  &-&   ia \\
-ish  & $\to$ &a &-&iwa &-&wa &                    uk & $\to$ &a  &-&   wa \\
-ish  & $\to$ &a &-&wa &                           uli  & $\to$ &a &-&    wa \\
-ish  & $\to$ &iwa&-& wa & 	                      ush  & $\to$ &a  &-&  ia \\
-iw  & $\to$ &a &-&e &                             uz  & $\to$ &a  &-&   wa \\
-iw  & $\to$ & a &-&i  &                          \\
-iz  & $\to$ &a &-&ia  &                          \\
-iz  & $\to$ &a  &-&   wa &                       \\\lspbottomrule
+\begin{tabular}{ l*{6}{@{~}l} @{\qquad} l*{6}{@{~}l} }
+\lsptoprule                                       
+an   & $\to$ & $\emptyset$     &- & i      & &    & iz   & $\to$ &a  &-& wa\\
+an   & $\to$ &  a              &- & ia     & &    & ki   & $\to$ &a  &-&   wa  \\
+an   & $\to$ &  a              &- & \multicolumn{2}{@{}l@{}}{ishwa}  &    & li   & $\to$ &a  &-&   wa \\
+bish & $\to$ &  a              &- & wa     & &    & mi   & $\to$ &a  &-&  wa \\
+ele  & $\to$ &  a              &- & za     & &    & ng   & $\to$ &a  &-&   wa  \\
+esh  & $\to$ &  a              &- & ea     & &    & sh   & $\to$ &a  &-&   na &-&  wa  \\
+esh  & $\to$ &  a              &- & ewa    &-& wa & sh   & $\to$ &a  &-&   e  \\
+esh  & $\to$ &  a              &- & wa     & &    & sh   & $\to$ &a  &-&  ia  &-& wa \\
+ez   & $\to$ &  a              &- & wa     & &    & sh   & $\to$ &a  &-&  iwa \\
+ik   & $\to$ &  a              &- & ia     & &    & sh   & $\to$ &a  &-&  iwa &-&  wa  \\	
+ili  & $\to$ &  a              &- & wa     & &    & sh   & $\to$ &a  &-&   wa \\
+ish  & $\to$ &  a              &- & ia     & &    & ti   & $\to$ &a  &-&   lia \\
+ish  & $\to$ &  a              &- & iwa    & &    & ti   & $\to$ &a  &-&   wa \\
+ish  & $\to$ &  a              &- & iwa    &-&wa  & uk   & $\to$ &a  &-&   ia \\
+ish  & $\to$ &  a              &- & wa     & &    & uk   & $\to$ &a  &-&   wa \\
+ish  & $\to$ &  iwa            &- & wa     & &    & uli  & $\to$ &a  &-&    wa \\
+iw   & $\to$ &  a              &- & e      & &    & ush  & $\to$ &a  &-&  ia \\
+iw   & $\to$ &  a              &- & i      & &    & uz   & $\to$ &a  &-&   wa \\
+iz   & $\to$ &  a              &- & ia     & &    & \\\lspbottomrule
 \end{tabular}
 \caption{Identification of extensions in final suffix sequences\label{finalstructure}}
 \end{table}
@@ -850,7 +849,7 @@ $ \left\{ \begin{tabular}{@{\,}c@{\,}}  an     \\ ish \\ sh    \end{tabular} \ri
  
 
 
-\section{Three other, simpler cases }
+\section{Three other, simpler cases}
  
 Linguistica's performance with grammatical stems is mixed: some good, some bad. We will briefly look at three.
   
@@ -867,7 +866,7 @@ $\left\{ \begin{tabular}{lrlr} nazo & 1,194 &  \uline{na}\uuline{subiri} & 407 \
 \caption{Analysis of stem {\itshape -ote}\label{ote}}
 \end{figure}
  
-\subsection{\textit{-angu} `my'}
+\pagebreak\subsection{\textit{-angu} `my'}
 
 Linguistica's analysis here is not very good at all. Linguistica is permitted to assign multiple analyses to words, and it does so quite a bit with these words, as we see in \tabref{angu}. The stem \textit{-angu} is identified in only two of the 15 forms present, and five different roots enter into the proposed analyses of the various forms. Even after studying the results, we are not certain why the algorithm wanders so far from the right answer. It does much better with a consonant-initial form such as \textit{-ko}.
 
